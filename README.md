@@ -5,7 +5,7 @@ Learning an Isometric Surface Parameterization for Texture Unwrapping (ECCV 2022
 
 #### Environment Setup:
 
-install the conda environment using env-idruvfield.yml
+install the conda environment using env-isouvfield.yml
 
 
 #### Experiments:
