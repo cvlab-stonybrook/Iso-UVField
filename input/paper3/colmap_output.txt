@@ -1,0 +1,4012 @@
+
+==============================================================================
+Feature extraction
+==============================================================================
+
+Processed file [1/17]
+  Name:            20210929_180841.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        13686
+Processed file [2/17]
+  Name:            20210929_180844.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        12208
+Processed file [3/17]
+  Name:            20210929_180853.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        12134
+Processed file [4/17]
+  Name:            20210929_180901.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        9322
+Processed file [5/17]
+  Name:            20210929_180908.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        8641
+Processed file [6/17]
+  Name:            20210929_180913.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        12077
+Processed file [7/17]
+  Name:            20210929_180925.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        11901
+Processed file [8/17]
+  Name:            20210929_180930.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        10221
+Processed file [9/17]
+  Name:            20210929_180938.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        11521
+Processed file [10/17]
+  Name:            20210929_180944.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        11708
+Processed file [11/17]
+  Name:            20210929_180954.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        9657
+Processed file [12/17]
+  Name:            20210929_180959.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        9904
+Processed file [13/17]
+  Name:            20210929_181004.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        8205
+Processed file [14/17]
+  Name:            20210929_181035.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        8580
+Processed file [15/17]
+  Name:            20210929_181040.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.700
+  Features:        8252
+Processed file [16/17]
+  Name:            20210929_181052.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        8836
+Processed file [17/17]
+  Name:            20210929_181100.jpg
+  Dimensions:      2992 x 2992
+  Camera:          #1 - SIMPLE_RADIAL
+  Focal Length:    2222.63px (Prior)
+  GPS:             LAT=40.913, LON=-73.124, ALT=12.799
+  Features:        10011
+Elapsed time: 0.251 [minutes]
+
+==============================================================================
+Exhaustive feature matching
+==============================================================================
+
+Matching block [1/1, 1/1] in 12.855s
+Elapsed time: 0.218 [minutes]
+
+==============================================================================
+Loading database
+==============================================================================
+
+Loading cameras... 1 in 0.000s
+Loading matches... 136 in 0.008s
+Loading images... 17 in 0.021s (connected 17)
+Building correspondence graph... in 0.029s (ignored 0)
+
+Elapsed time: 0.001 [minutes]
+
+
+==============================================================================
+Finding good initial image pair
+==============================================================================
+
+
+==============================================================================
+Initializing with image pair #7 and #1
+==============================================================================
+
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.180719e+04    0.00e+00    8.63e+04   0.00e+00   0.00e+00  1.00e+04        0    1.59e-02    2.93e-02
+   1  8.050569e+03    3.76e+03    1.10e+06   7.88e+01   5.91e-01  1.01e+04        1    2.75e-02    5.69e-02
+   2  4.856775e+03    3.19e+03    2.57e+05   5.95e+01   9.34e-01  2.90e+04        1    2.62e-02    8.31e-02
+   3  1.040369e+04   -5.55e+03    0.00e+00   1.02e+02  -4.82e+00  1.45e+04        1    1.13e-02    9.44e-02
+   4  4.618114e+03    2.39e+02    4.77e+05   6.24e+01   2.88e-01  1.35e+04        1    2.55e-02    1.20e-01
+   5  3.972847e+03    6.45e+02    3.48e+05   4.55e+01   6.97e-01  1.43e+04        1    2.61e-02    1.46e-01
+   6  3.657921e+03    3.15e+02    3.18e+05   3.92e+01   5.78e-01  1.44e+04        1    2.60e-02    1.72e-01
+   7  3.368048e+03    2.90e+02    2.59e+05   3.33e+01   6.52e-01  1.48e+04        1    2.63e-02    1.99e-01
+   8  3.146479e+03    2.22e+02    2.25e+05   2.99e+01   6.49e-01  1.52e+04        1    2.61e-02    2.25e-01
+   9  2.956311e+03    1.90e+02    1.97e+05   2.75e+01   6.67e-01  1.58e+04        1    2.82e-02    2.53e-01
+  10  2.792282e+03    1.64e+02    1.78e+05   2.60e+01   6.70e-01  1.65e+04        1    2.54e-02    2.78e-01
+  11  2.645657e+03    1.47e+02    1.63e+05   2.50e+01   6.76e-01  1.72e+04        1    2.56e-02    3.04e-01
+  12  2.513637e+03    1.32e+02    1.51e+05   2.42e+01   6.78e-01  1.80e+04        1    2.55e-02    3.29e-01
+  13  2.393385e+03    1.20e+02    1.41e+05   2.36e+01   6.79e-01  1.89e+04        1    2.53e-02    3.55e-01
+  14  2.283578e+03    1.10e+02    1.32e+05   2.31e+01   6.80e-01  1.98e+04        1    2.60e-02    3.81e-01
+  15  2.182979e+03    1.01e+02    1.24e+05   2.27e+01   6.80e-01  2.08e+04        1    2.54e-02    4.06e-01
+  16  2.090785e+03    9.22e+01    1.17e+05   2.22e+01   6.80e-01  2.18e+04        1    2.50e-02    4.31e-01
+  17  2.006244e+03    8.45e+01    1.10e+05   2.18e+01   6.81e-01  2.29e+04        1    3.22e-02    4.63e-01
+  18  1.928748e+03    7.75e+01    1.03e+05   2.15e+01   6.81e-01  2.40e+04        1    2.61e-02    4.90e-01
+  19  1.857731e+03    7.10e+01    9.69e+04   2.11e+01   6.81e-01  2.52e+04        1    2.64e-02    5.16e-01
+  20  1.792690e+03    6.50e+01    9.12e+04   2.07e+01   6.81e-01  2.65e+04        1    2.57e-02    5.42e-01
+  21  1.733158e+03    5.95e+01    8.58e+04   2.03e+01   6.82e-01  2.78e+04        1    2.61e-02    5.68e-01
+  22  1.678707e+03    5.45e+01    8.07e+04   2.00e+01   6.82e-01  2.92e+04        1    2.52e-02    5.93e-01
+  23  1.628943e+03    4.98e+01    7.58e+04   1.96e+01   6.82e-01  3.07e+04        1    2.58e-02    6.19e-01
+  24  1.583501e+03    4.54e+01    7.13e+04   1.92e+01   6.83e-01  3.23e+04        1    2.52e-02    6.44e-01
+  25  1.542046e+03    4.15e+01    6.70e+04   1.89e+01   6.83e-01  3.40e+04        1    2.65e-02    6.71e-01
+  26  1.504267e+03    3.78e+01    6.30e+04   1.85e+01   6.84e-01  3.57e+04        1    4.53e-02    7.16e-01
+  27  1.469877e+03    3.44e+01    5.92e+04   1.82e+01   6.84e-01  3.76e+04        1    3.70e-02    7.53e-01
+  28  1.438611e+03    3.13e+01    5.56e+04   1.78e+01   6.85e-01  3.96e+04        1    2.75e-02    7.81e-01
+  29  1.410224e+03    2.84e+01    5.22e+04   1.74e+01   6.85e-01  4.17e+04        1    2.69e-02    8.08e-01
+  30  1.384489e+03    2.57e+01    4.89e+04   1.71e+01   6.86e-01  4.40e+04        1    2.53e-02    8.33e-01
+  31  1.361198e+03    2.33e+01    4.59e+04   1.67e+01   6.87e-01  4.64e+04        1    2.52e-02    8.58e-01
+  32  1.340155e+03    2.10e+01    4.30e+04   1.63e+01   6.88e-01  4.90e+04        1    2.55e-02    8.84e-01
+  33  1.321182e+03    1.90e+01    4.02e+04   1.59e+01   6.89e-01  5.18e+04        1    2.52e-02    9.09e-01
+  34  1.304112e+03    1.71e+01    3.76e+04   1.56e+01   6.90e-01  5.49e+04        1    2.55e-02    9.35e-01
+  35  1.288790e+03    1.53e+01    3.51e+04   1.52e+01   6.91e-01  5.81e+04        1    3.27e-02    9.67e-01
+  36  1.275075e+03    1.37e+01    3.27e+04   1.48e+01   6.93e-01  6.16e+04        1    2.54e-02    9.93e-01
+  37  1.262833e+03    1.22e+01    3.05e+04   1.44e+01   6.94e-01  6.55e+04        1    2.59e-02    1.02e+00
+  38  1.251942e+03    1.09e+01    2.83e+04   1.40e+01   6.96e-01  6.97e+04        1    2.66e-02    1.05e+00
+  39  1.242286e+03    9.66e+00    2.63e+04   1.36e+01   6.98e-01  7.43e+04        1    2.63e-02    1.07e+00
+  40  1.233759e+03    8.53e+00    2.44e+04   1.32e+01   7.00e-01  7.93e+04        1    2.62e-02    1.10e+00
+  41  1.226263e+03    7.50e+00    2.25e+04   1.28e+01   7.02e-01  8.49e+04        1    2.61e-02    1.12e+00
+  42  1.219706e+03    6.56e+00    2.07e+04   1.24e+01   7.04e-01  9.12e+04        1    2.62e-02    1.15e+00
+  43  1.214002e+03    5.70e+00    1.90e+04   1.19e+01   7.07e-01  9.81e+04        1    2.71e-02    1.18e+00
+  44  1.209070e+03    4.93e+00    1.74e+04   1.15e+01   7.10e-01  1.06e+05        1    2.58e-02    1.20e+00
+  45  1.204837e+03    4.23e+00    1.59e+04   1.11e+01   7.13e-01  1.15e+05        1    2.50e-02    1.23e+00
+  46  1.201233e+03    3.60e+00    1.44e+04   1.06e+01   7.17e-01  1.25e+05        1    2.68e-02    1.25e+00
+  47  1.198193e+03    3.04e+00    1.30e+04   1.01e+01   7.21e-01  1.37e+05        1    2.59e-02    1.28e+00
+  48  1.195656e+03    2.54e+00    1.17e+04   9.66e+00   7.26e-01  1.51e+05        1    2.49e-02    1.31e+00
+  49  1.193565e+03    2.09e+00    1.04e+04   9.16e+00   7.31e-01  1.67e+05        1    2.62e-02    1.33e+00
+  50  1.191868e+03    1.70e+00    9.19e+03   8.65e+00   7.37e-01  1.87e+05        1    2.63e-02    1.36e+00
+  51  1.190515e+03    1.35e+00    8.07e+03   8.12e+00   7.44e-01  2.12e+05        1    2.59e-02    1.38e+00
+  52  1.189459e+03    1.06e+00    7.00e+03   7.57e+00   7.52e-01  2.43e+05        1    2.64e-02    1.41e+00
+  53  1.188656e+03    8.03e-01    5.95e+03   6.99e+00   7.61e-01  2.83e+05        1    2.68e-02    1.44e+00
+  54  1.188067e+03    5.90e-01    4.95e+03   6.38e+00   7.72e-01  3.38e+05        1    2.67e-02    1.46e+00
+  55  1.187652e+03    4.15e-01    4.00e+03   5.73e+00   7.86e-01  4.15e+05        1    3.73e-02    1.50e+00
+  56  1.187377e+03    2.75e-01    3.09e+03   5.05e+00   8.02e-01  5.33e+05        1    4.77e-02    1.55e+00
+  57  1.187210e+03    1.68e-01    2.25e+03   4.31e+00   8.23e-01  7.31e+05        1    4.50e-02    1.59e+00
+  58  1.187119e+03    9.05e-02    1.49e+03   3.51e+00   8.51e-01  1.12e+06        1    4.44e-02    1.64e+00
+  59  1.187079e+03    4.00e-02    8.39e+02   2.63e+00   8.88e-01  2.10e+06        1    3.16e-02    1.67e+00
+  60  1.187067e+03    1.23e-02    3.41e+02   1.68e+00   9.35e-01  6.19e+06        1    2.58e-02    1.70e+00
+  61  1.187065e+03    1.82e-03    6.45e+01   7.30e-01   9.81e-01  1.86e+07        1    2.54e-02    1.72e+00
+  62  1.187065e+03    5.21e-05    1.57e+00   1.14e-01   1.00e+00  5.57e+07        1    2.51e-02    1.75e+00
+  63  1.187065e+03    1.12e-07    1.26e-01   5.84e-03   1.03e+00  1.67e+08        1    2.54e-02    1.77e+00
+  64  1.187065e+03    2.28e-10    8.22e-03   1.87e-04   1.08e+00  5.01e+08        1    2.50e-02    1.80e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 18800
+   Parameters : 14107
+   Iterations : 65
+         Time : 1.79805 [s]
+ Initial cost : 0.792491 [px]
+   Final cost : 0.25128 [px]
+  Termination : Convergence
+
+  => Filtered observations: 4
+  => Filtered images: 0
+
+==============================================================================
+Registering image #2 (3)
+==============================================================================
+
+  => Image sees 2866 / 6351 points
+
+Pose refinement report
+----------------------
+    Residuals : 5624
+   Parameters : 6
+   Iterations : 30
+         Time : 0.198025 [s]
+ Initial cost : 0.81611 [px]
+   Final cost : 0.760712 [px]
+  Termination : Convergence
+
+  => Continued observations: 2812
+  => Added observations: 2792
+
+Bundle adjustment report
+------------------------
+    Residuals : 30000
+   Parameters : 18148
+   Iterations : 26
+         Time : 1.27997 [s]
+ Initial cost : 0.651721 [px]
+   Final cost : 0.40826 [px]
+  Termination : No convergence
+
+  => Merged observations: 0
+  => Completed observations: 2
+  => Filtered observations: 141
+  => Changed observations: 0.009533
+
+Bundle adjustment report
+------------------------
+    Residuals : 29722
+   Parameters : 17962
+   Iterations : 18
+         Time : 0.862109 [s]
+ Initial cost : 0.435828 [px]
+   Final cost : 0.420759 [px]
+  Termination : Convergence
+
+  => Merged observations: 0
+  => Completed observations: 2
+  => Filtered observations: 0
+  => Changed observations: 0.000135
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  5.270575e+03    0.00e+00    1.55e+02   0.00e+00   0.00e+00  1.00e+04        0    2.90e-02    5.40e-02
+   1  5.270484e+03    9.12e-02    5.18e+00   2.92e-01   9.91e-01  3.00e+04        1    5.07e-02    1.05e-01
+   2  5.270477e+03    6.69e-03    2.86e+00   2.73e-01   9.86e-01  9.00e+04        1    5.19e-02    1.57e-01
+   3  5.270471e+03    6.46e-03    1.45e+01   5.47e-01   9.90e-01  2.70e+05        1    4.89e-02    2.06e-01
+   4  5.270463e+03    7.67e-03    4.26e+01   9.45e-01   9.74e-01  8.10e+05        1    5.00e-02    2.56e-01
+   5  5.270460e+03    3.20e-03    3.57e+01   8.66e-01   9.54e-01  2.43e+06        1    4.87e-02    3.04e-01
+   6  5.270460e+03    2.70e-04    4.10e+00   2.93e-01   9.62e-01  7.29e+06        1    4.88e-02    3.53e-01
+   7  5.270460e+03    3.18e-06    1.86e+00   2.32e-02   1.04e+00  2.19e+07        1    4.79e-02    4.01e-01
+   8  5.270460e+03    1.65e-08    3.06e-01   1.24e-03   1.07e+00  6.56e+07        1    4.75e-02    4.49e-01
+   9  5.270460e+03    1.91e-11    2.20e-02   8.14e-05   5.25e-01  6.56e+07        1    4.64e-02    4.95e-01
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 29726
+   Parameters : 17965
+   Iterations : 10
+         Time : 0.495946 [s]
+ Initial cost : 0.421076 [px]
+   Final cost : 0.421072 [px]
+  Termination : Convergence
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Filtered observations: 0
+  => Changed observations: 0.000000
+  => Filtered images: 0
+
+==============================================================================
+Registering image #4 (4)
+==============================================================================
+
+  => Image sees 2841 / 5136 points
+
+Pose refinement report
+----------------------
+    Residuals : 5634
+   Parameters : 6
+   Iterations : 19
+         Time : 0.14395 [s]
+ Initial cost : 0.836854 [px]
+   Final cost : 0.808357 [px]
+  Termination : Convergence
+
+  => Continued observations: 2814
+  => Added observations: 1859
+
+Bundle adjustment report
+------------------------
+    Residuals : 39072
+   Parameters : 20596
+   Iterations : 26
+         Time : 2.08942 [s]
+ Initial cost : 0.622128 [px]
+   Final cost : 0.437358 [px]
+  Termination : No convergence
+
+  => Merged observations: 10
+  => Completed observations: 48
+  => Filtered observations: 77
+  => Changed observations: 0.006910
+
+Bundle adjustment report
+------------------------
+    Residuals : 39014
+   Parameters : 20566
+   Iterations : 4
+         Time : 0.30104 [s]
+ Initial cost : 0.511701 [px]
+   Final cost : 0.499158 [px]
+  Termination : Convergence
+
+  => Merged observations: 0
+  => Completed observations: 12
+  => Filtered observations: 0
+  => Changed observations: 0.000615
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  9.749749e+03    0.00e+00    9.54e+02   0.00e+00   0.00e+00  1.00e+04        0    4.18e-02    8.18e-02
+   1  9.746827e+03    2.92e+00    5.27e+00   1.67e-01   1.00e+00  3.00e+04        1    7.48e-02    1.57e-01
+   2  9.746805e+03    2.22e-02    2.42e+00   2.18e-01   1.01e+00  9.00e+04        1    7.60e-02    2.33e-01
+   3  9.746796e+03    8.90e-03    7.08e+00   2.53e-01   1.00e+00  2.70e+05        1    7.11e-02    3.04e-01
+   4  9.746793e+03    2.56e-03    6.81e+00   2.11e-01   9.91e-01  8.10e+05        1    7.73e-02    3.81e-01
+   5  9.746793e+03    1.72e-04    1.96e+00   6.50e-02   9.89e-01  2.43e+06        1    7.20e-02    4.53e-01
+   6  9.746793e+03    1.67e-06    2.86e-01   6.27e-03   1.01e+00  7.29e+06        1    7.11e-02    5.25e-01
+   7  9.746793e+03    3.86e-09    7.01e-03   1.92e-04   1.04e+00  2.19e+07        1    7.29e-02    5.97e-01
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 39038
+   Parameters : 20581
+   Iterations : 8
+         Time : 0.599038 [s]
+ Initial cost : 0.49975 [px]
+   Final cost : 0.499674 [px]
+  Termination : Convergence
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Filtered observations: 0
+  => Changed observations: 0.000000
+  => Filtered images: 0
+
+==============================================================================
+Registering image #8 (5)
+==============================================================================
+
+  => Image sees 3728 / 6158 points
+
+Pose refinement report
+----------------------
+    Residuals : 7440
+   Parameters : 6
+   Iterations : 10
+         Time : 0.0920062 [s]
+ Initial cost : 0.641615 [px]
+   Final cost : 0.606486 [px]
+  Termination : Convergence
+
+  => Continued observations: 3708
+  => Added observations: 1722
+
+Bundle adjustment report
+------------------------
+    Residuals : 49898
+   Parameters : 23059
+   Iterations : 26
+         Time : 2.65825 [s]
+ Initial cost : 0.512052 [px]
+   Final cost : 0.452779 [px]
+  Termination : No convergence
+
+  => Merged observations: 89
+  => Completed observations: 84
+  => Filtered observations: 102
+  => Changed observations: 0.011022
+
+Bundle adjustment report
+------------------------
+    Residuals : 49862
+   Parameters : 22954
+   Iterations : 6
+         Time : 0.631051 [s]
+ Initial cost : 0.537439 [px]
+   Final cost : 0.526435 [px]
+  Termination : Convergence
+
+  => Merged observations: 5
+  => Completed observations: 13
+  => Filtered observations: 0
+  => Changed observations: 0.000722
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.387132e+04    0.00e+00    5.18e+02   0.00e+00   0.00e+00  1.00e+04        0    5.19e-02    1.00e-01
+   1  1.386366e+04    7.66e+00    3.87e+00   1.04e-01   1.00e+00  3.00e+04        1    9.76e-02    1.98e-01
+   2  1.386365e+04    9.20e-03    5.19e+00   1.70e-01   9.94e-01  9.00e+04        1    9.75e-02    2.95e-01
+   3  1.386364e+04    6.35e-03    6.99e+00   2.22e-01   9.96e-01  2.70e+05        1    9.78e-02    3.93e-01
+   4  1.386364e+04    1.43e-03    2.45e+00   1.36e-01   9.95e-01  8.10e+05        1    9.60e-02    4.89e-01
+   5  1.386364e+04    6.19e-05    1.98e+00   3.19e-02   9.98e-01  2.43e+06        1    1.02e-01    5.91e-01
+   6  1.386364e+04    4.02e-07    2.18e-01   2.54e-03   1.01e+00  7.29e+06        1    9.82e-02    6.89e-01
+   7  1.386364e+04    6.02e-10    6.28e-03   7.89e-05   9.69e-01  2.19e+07        1    9.36e-02    7.83e-01
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 49888
+   Parameters : 22966
+   Iterations : 8
+         Time : 0.785185 [s]
+ Initial cost : 0.527304 [px]
+   Final cost : 0.527158 [px]
+  Termination : Convergence
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Filtered observations: 0
+  => Changed observations: 0.000000
+  => Filtered images: 0
+
+==============================================================================
+Registering image #6 (6)
+==============================================================================
+
+  => Image sees 3190 / 4777 points
+
+Pose refinement report
+----------------------
+    Residuals : 6406
+   Parameters : 6
+   Iterations : 11
+         Time : 0.0872589 [s]
+ Initial cost : 0.603388 [px]
+   Final cost : 0.574556 [px]
+  Termination : Convergence
+
+  => Continued observations: 3175
+  => Added observations: 1053
+
+Bundle adjustment report
+------------------------
+    Residuals : 58344
+   Parameters : 24448
+   Iterations : 25
+         Time : 3.58207 [s]
+ Initial cost : 0.491729 [px]
+   Final cost : 0.463139 [px]
+  Termination : Convergence
+
+  => Merged observations: 110
+  => Completed observations: 80
+  => Filtered observations: 111
+  => Changed observations: 0.010318
+
+Bundle adjustment report
+------------------------
+    Residuals : 58282
+   Parameters : 24352
+   Iterations : 6
+         Time : 0.842018 [s]
+ Initial cost : 0.558776 [px]
+   Final cost : 0.547085 [px]
+  Termination : Convergence
+
+  => Merged observations: 5
+  => Completed observations: 15
+  => Filtered observations: 0
+  => Changed observations: 0.000686
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 3
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  1.752858e+04    0.00e+00    2.19e+03   0.00e+00   0.00e+00  1.00e+04        0    6.50e-02    1.21e-01
+   1  1.751396e+04    1.46e+01    3.89e+00   1.72e-01   1.00e+00  3.00e+04        1    1.56e-01    2.77e-01
+   2  1.751395e+04    4.78e-03    1.99e+00   1.05e-01   1.01e+00  9.00e+04        1    1.97e-01    4.74e-01
+   3  1.751395e+04    1.35e-03    1.50e+00   7.62e-02   1.01e+00  2.70e+05        1    1.46e-01    6.20e-01
+   4  1.751395e+04    2.60e-04    1.95e+00   4.64e-02   1.00e+00  8.10e+05        1    1.12e-01    7.32e-01
+   5  1.751395e+04    1.15e-05    4.92e-01   1.12e-02   1.00e+00  2.43e+06        1    1.21e-01    8.53e-01
+   6  1.751395e+04    7.78e-08    5.25e-02   9.29e-04   1.01e+00  7.29e+06        1    1.32e-01    9.85e-01
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 58318
+   Parameters : 24364
+   Iterations : 7
+         Time : 0.988593 [s]
+ Initial cost : 0.548242 [px]
+   Final cost : 0.548013 [px]
+  Termination : Convergence
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Filtered observations: 0
+  => Changed observations: 0.000000
+  => Filtered images: 0
+
+==============================================================================
+Registering image #5 (7)
+==============================================================================
+
+  => Image sees 2970 / 3920 points
+
+Pose refinement report
+----------------------
+    Residuals : 5978
+   Parameters : 6
+   Iterations : 29
+         Time : 0.226049 [s]
+ Initial cost : 0.735533 [px]
+   Final cost : 0.663271 [px]
+  Termination : Convergence
+
+  => Continued observations: 2957
+  => Added observations: 620
+
+Bundle adjustment report
+------------------------
+    Residuals : 59428
+   Parameters : 19919
+   Iterations : 21
+         Time : 2.42909 [s]
+ Initial cost : 0.537074 [px]
+   Final cost : 0.510942 [px]
+  Termination : Convergence
+
+  => Merged observations: 164
+  => Completed observations: 126
+  => Filtered observations: 161
+  => Changed observations: 0.014560
+
+Bundle adjustment report
+------------------------
+    Residuals : 59386
+   Parameters : 19832
+   Iterations : 3
+         Time : 0.323979 [s]
+ Initial cost : 0.621645 [px]
+   Final cost : 0.609256 [px]
+  Termination : Convergence
+
+  => Merged observations: 18
+  => Completed observations: 22
+  => Filtered observations: 2
+  => Changed observations: 0.001357
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.312481e+04    0.00e+00    4.54e+04   0.00e+00   0.00e+00  1.00e+04        0    6.49e-02    1.30e-01
+   1  2.258355e+04    5.41e+02    7.16e+04   8.09e+00   9.83e-01  3.00e+04        1    1.28e-01    2.58e-01
+   2  2.251664e+04    6.69e+01    3.66e+04   1.05e+01   9.45e-01  9.00e+04        1    1.57e-01    4.15e-01
+   3  2.248634e+04    3.03e+01    2.28e+04   8.48e+00   9.38e-01  2.70e+05        1    1.66e-01    5.81e-01
+   4  2.247829e+04    8.05e+00    5.61e+03   4.60e+00   9.81e-01  8.10e+05        1    1.56e-01    7.38e-01
+   5  2.247783e+04    4.58e-01    2.85e+02   1.08e+00   1.00e+00  2.43e+06        1    1.37e-01    8.74e-01
+   6  2.247783e+04    2.73e-03    2.21e+00   9.44e-02   1.01e+00  7.29e+06        1    2.05e-01    1.08e+00
+   7  2.247783e+04    3.91e-06    8.24e-01   3.48e-03   1.02e+00  2.19e+07        1    1.86e-01    1.26e+00
+   8  2.247783e+04    3.46e-09    3.67e-02   9.08e-05   1.07e+00  6.56e+07        1    1.53e-01    1.42e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 65442
+   Parameters : 25105
+   Iterations : 9
+         Time : 1.42499 [s]
+ Initial cost : 0.594444 [px]
+   Final cost : 0.586069 [px]
+  Termination : Convergence
+
+  => Completed observations: 11
+  => Merged observations: 16
+  => Filtered observations: 2
+  => Changed observations: 0.000886
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.256085e+04    0.00e+00    5.40e+03   0.00e+00   0.00e+00  1.00e+04        0    6.46e-02    1.31e-01
+   1  2.253909e+04    2.18e+01    5.77e+01   1.47e-01   1.00e+00  3.00e+04        1    1.62e-01    2.92e-01
+   2  2.253904e+04    4.74e-02    2.73e+01   2.77e-01   9.95e-01  9.00e+04        1    1.29e-01    4.22e-01
+   3  2.253902e+04    2.27e-02    1.83e+01   2.33e-01   9.99e-01  2.70e+05        1    1.69e-01    5.91e-01
+   4  2.253902e+04    4.86e-03    4.76e+00   1.26e-01   1.00e+00  8.10e+05        1    2.39e-01    8.30e-01
+   5  2.253902e+04    2.19e-04    1.97e+00   2.93e-02   1.01e+00  2.43e+06        1    1.61e-01    9.92e-01
+   6  2.253902e+04    1.65e-06    3.65e-01   2.52e-03   1.01e+00  7.29e+06        1    1.40e-01    1.13e+00
+   7  2.253902e+04    2.83e-09    2.60e-02   9.12e-05   1.02e+00  2.19e+07        1    1.31e-01    1.26e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 65460
+   Parameters : 25093
+   Iterations : 8
+         Time : 1.26517 [s]
+ Initial cost : 0.58707 [px]
+   Final cost : 0.586786 [px]
+  Termination : Convergence
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Filtered observations: 0
+  => Changed observations: 0.000000
+  => Filtered images: 0
+
+==============================================================================
+Registering image #3 (8)
+==============================================================================
+
+  => Image sees 2883 / 5054 points
+
+Pose refinement report
+----------------------
+    Residuals : 5758
+   Parameters : 6
+   Iterations : 13
+         Time : 0.0972414 [s]
+ Initial cost : 0.695279 [px]
+   Final cost : 0.599551 [px]
+  Termination : Convergence
+
+  => Continued observations: 2856
+  => Added observations: 831
+
+Bundle adjustment report
+------------------------
+    Residuals : 61484
+   Parameters : 17705
+   Iterations : 16
+         Time : 1.68485 [s]
+ Initial cost : 0.53935 [px]
+   Final cost : 0.514157 [px]
+  Termination : Convergence
+
+  => Merged observations: 130
+  => Completed observations: 82
+  => Filtered observations: 107
+  => Changed observations: 0.009852
+
+Bundle adjustment report
+------------------------
+    Residuals : 61466
+   Parameters : 17642
+   Iterations : 3
+         Time : 0.328639 [s]
+ Initial cost : 0.621074 [px]
+   Final cost : 0.613205 [px]
+  Termination : Convergence
+
+  => Merged observations: 0
+  => Completed observations: 13
+  => Filtered observations: 0
+  => Changed observations: 0.000402
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  2.619209e+04    0.00e+00    2.32e+04   0.00e+00   0.00e+00  1.00e+04        0    7.53e-02    1.49e-01
+   1  2.610268e+04    8.94e+01    2.51e+03   1.93e+00   1.00e+00  3.00e+04        1    1.49e-01    2.98e-01
+   2  2.610221e+04    4.63e-01    3.64e+01   6.32e-01   1.01e+00  9.00e+04        1    1.83e-01    4.80e-01
+   3  2.610214e+04    7.56e-02    1.27e+01   2.91e-01   1.01e+00  2.70e+05        1    1.92e-01    6.72e-01
+   4  2.610212e+04    1.59e-02    5.77e+00   1.84e-01   1.00e+00  8.10e+05        1    2.64e-01    9.36e-01
+   5  2.610212e+04    7.76e-04    1.99e+00   4.73e-02   1.01e+00  2.43e+06        1    2.02e-01    1.14e+00
+   6  2.610212e+04    6.24e-06    3.35e-01   4.33e-03   1.01e+00  7.29e+06        1    1.88e-01    1.33e+00
+   7  2.610212e+04    1.01e-08    3.78e-02   1.60e-04   1.01e+00  2.19e+07        1    1.90e-01    1.52e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 72810
+   Parameters : 26167
+   Iterations : 8
+         Time : 1.51904 [s]
+ Initial cost : 0.599777 [px]
+   Final cost : 0.598746 [px]
+  Termination : Convergence
+
+  => Completed observations: 9
+  => Merged observations: 5
+  => Filtered observations: 0
+  => Changed observations: 0.000385
+  => Filtered images: 0
+
+==============================================================================
+Registering image #10 (9)
+==============================================================================
+
+  => Image sees 2657 / 5441 points
+
+Pose refinement report
+----------------------
+    Residuals : 5310
+   Parameters : 6
+   Iterations : 13
+         Time : 0.0843912 [s]
+ Initial cost : 0.730644 [px]
+   Final cost : 0.681246 [px]
+  Termination : Convergence
+
+  => Continued observations: 2644
+  => Added observations: 852
+
+Bundle adjustment report
+------------------------
+    Residuals : 63488
+   Parameters : 15863
+   Iterations : 19
+         Time : 2.02548 [s]
+ Initial cost : 0.573801 [px]
+   Final cost : 0.546897 [px]
+  Termination : Convergence
+
+  => Merged observations: 49
+  => Completed observations: 61
+  => Filtered observations: 206
+  => Changed observations: 0.009351
+
+Bundle adjustment report
+------------------------
+    Residuals : 63214
+   Parameters : 15833
+   Iterations : 3
+         Time : 0.325715 [s]
+ Initial cost : 0.665363 [px]
+   Final cost : 0.654798 [px]
+  Termination : Convergence
+
+  => Merged observations: 0
+  => Completed observations: 4
+  => Filtered observations: 2
+  => Changed observations: 0.000178
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.135007e+04    0.00e+00    1.09e+04   0.00e+00   0.00e+00  1.00e+04        0    8.04e-02    1.63e-01
+   1  3.107465e+04    2.75e+02    4.20e+04   1.15e+01   9.88e-01  3.00e+04        1    3.02e-01    4.65e-01
+   2  3.102233e+04    5.23e+01    2.31e+04   8.80e+00   9.76e-01  9.00e+04        1    2.16e-01    6.82e-01
+   3  3.100935e+04    1.30e+01    6.10e+03   4.03e+00   9.89e-01  2.70e+05        1    1.68e-01    8.50e-01
+   4  3.100648e+04    2.87e+00    9.36e+02   2.12e+00   9.99e-01  8.10e+05        1    1.94e-01    1.04e+00
+   5  3.100632e+04    1.63e-01    6.25e+01   5.59e-01   1.00e+00  2.43e+06        1    1.78e-01    1.22e+00
+   6  3.100631e+04    1.46e-03    9.84e-01   5.53e-02   1.01e+00  7.29e+06        1    2.29e-01    1.45e+00
+   7  3.100631e+04    2.59e-06    7.81e-01   2.23e-03   1.02e+00  2.19e+07        1    2.30e-01    1.68e+00
+   8  3.100631e+04    2.10e-09    4.02e-02   5.64e-05   1.04e+00  6.56e+07        1    2.18e-01    1.90e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 79534
+   Parameters : 27346
+   Iterations : 9
+         Time : 1.90363 [s]
+ Initial cost : 0.627831 [px]
+   Final cost : 0.62438 [px]
+  Termination : Convergence
+
+  => Completed observations: 3
+  => Merged observations: 0
+  => Filtered observations: 0
+  => Changed observations: 0.000075
+  => Filtered images: 0
+
+==============================================================================
+Registering image #17 (10)
+==============================================================================
+
+  => Image sees 3071 / 5464 points
+
+Pose refinement report
+----------------------
+    Residuals : 6160
+   Parameters : 6
+   Iterations : 51
+         Time : 0.421888 [s]
+ Initial cost : 0.707433 [px]
+   Final cost : 0.692392 [px]
+  Termination : Convergence
+
+  => Continued observations: 3054
+  => Added observations: 1454
+
+Bundle adjustment report
+------------------------
+    Residuals : 65852
+   Parameters : 16292
+   Iterations : 22
+         Time : 2.30938 [s]
+ Initial cost : 0.603924 [px]
+   Final cost : 0.574887 [px]
+  Termination : Convergence
+
+  => Merged observations: 161
+  => Completed observations: 197
+  => Filtered observations: 448
+  => Changed observations: 0.022697
+
+Bundle adjustment report
+------------------------
+    Residuals : 65406
+   Parameters : 16196
+   Iterations : 3
+         Time : 0.317436 [s]
+ Initial cost : 0.700597 [px]
+   Final cost : 0.687932 [px]
+  Termination : Convergence
+
+  => Merged observations: 16
+  => Completed observations: 44
+  => Filtered observations: 12
+  => Changed observations: 0.002041
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 0
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  3.747076e+04    0.00e+00    1.92e+04   0.00e+00   0.00e+00  1.00e+04        0    8.42e-02    1.73e-01
+   1  3.734686e+04    1.24e+02    5.06e+03   5.54e+00   1.00e+00  3.00e+04        1    2.30e-01    4.03e-01
+   2  3.733947e+04    7.39e+00    2.75e+03   3.20e+00   9.95e-01  9.00e+04        1    1.98e-01    6.01e-01
+   3  3.733854e+04    9.29e-01    4.59e+02   9.49e-01   9.97e-01  2.70e+05        1    2.07e-01    8.08e-01
+   4  3.733833e+04    2.15e-01    8.21e+01   4.19e-01   1.00e+00  8.10e+05        1    2.02e-01    1.01e+00
+   5  3.733831e+04    1.46e-02    7.77e+00   1.22e-01   1.01e+00  2.43e+06        1    1.71e-01    1.18e+00
+   6  3.733831e+04    1.68e-04    1.98e+00   1.37e-02   1.01e+00  7.29e+06        1    2.65e-01    1.45e+00
+   7  3.733831e+04    3.74e-07    3.36e-01   6.20e-04   1.02e+00  2.19e+07        1    3.20e-01    1.77e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 88118
+   Parameters : 29278
+   Iterations : 8
+         Time : 1.77094 [s]
+ Initial cost : 0.6521 [px]
+   Final cost : 0.650946 [px]
+  Termination : Convergence
+
+  => Completed observations: 8
+  => Merged observations: 0
+  => Filtered observations: 1
+  => Changed observations: 0.000204
+  => Filtered images: 0
+
+==============================================================================
+Registering image #9 (11)
+==============================================================================
+
+  => Image sees 2558 / 4308 points
+
+Pose refinement report
+----------------------
+    Residuals : 5146
+   Parameters : 6
+   Iterations : 14
+         Time : 0.0824341 [s]
+ Initial cost : 0.679669 [px]
+   Final cost : 0.620794 [px]
+  Termination : Convergence
+
+  => Continued observations: 2536
+  => Added observations: 1047
+
+Bundle adjustment report
+------------------------
+    Residuals : 65304
+   Parameters : 13526
+   Iterations : 26
+         Time : 2.60488 [s]
+ Initial cost : 0.562772 [px]
+   Final cost : 0.546364 [px]
+  Termination : No convergence
+
+  => Merged observations: 168
+  => Completed observations: 85
+  => Filtered observations: 263
+  => Changed observations: 0.014973
+
+Bundle adjustment report
+------------------------
+    Residuals : 65016
+   Parameters : 13373
+   Iterations : 3
+         Time : 0.269442 [s]
+ Initial cost : 0.669855 [px]
+   Final cost : 0.661149 [px]
+  Termination : Convergence
+
+  => Merged observations: 12
+  => Completed observations: 17
+  => Filtered observations: 2
+  => Changed observations: 0.000903
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 4
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.130685e+04    0.00e+00    1.57e+04   0.00e+00   0.00e+00  1.00e+04        0    1.02e-01    2.06e-01
+   1  4.110726e+04    2.00e+02    1.63e+04   6.26e+00   9.97e-01  3.00e+04        1    4.23e-01    6.29e-01
+   2  4.108703e+04    2.02e+01    7.08e+03   4.34e+00   9.94e-01  9.00e+04        1    2.98e-01    9.27e-01
+   3  4.108180e+04    5.23e+00    1.50e+03   1.68e+00   9.97e-01  2.70e+05        1    2.94e-01    1.22e+00
+   4  4.108010e+04    1.70e+00    5.46e+02   1.07e+00   1.00e+00  8.10e+05        1    3.30e-01    1.55e+00
+   5  4.107996e+04    1.42e-01    6.11e+01   3.59e-01   1.01e+00  2.43e+06        1    2.73e-01    1.82e+00
+   6  4.107995e+04    2.01e-03    1.98e+00   4.52e-02   1.01e+00  7.29e+06        1    2.80e-01    2.11e+00
+   7  4.107995e+04    5.01e-06    8.59e-01   2.23e-03   1.02e+00  2.19e+07        1    2.40e-01    2.35e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 94980
+   Parameters : 30592
+   Iterations : 8
+         Time : 2.34886 [s]
+ Initial cost : 0.65947 [px]
+   Final cost : 0.657656 [px]
+  Termination : Convergence
+
+  => Completed observations: 6
+  => Merged observations: 7
+  => Filtered observations: 1
+  => Changed observations: 0.000295
+  => Filtered images: 0
+
+==============================================================================
+Registering image #12 (12)
+==============================================================================
+
+  => Image sees 2519 / 5254 points
+
+Pose refinement report
+----------------------
+    Residuals : 5122
+   Parameters : 6
+   Iterations : 13
+         Time : 0.0879106 [s]
+ Initial cost : 0.737668 [px]
+   Final cost : 0.637569 [px]
+  Termination : Convergence
+
+  => Continued observations: 2489
+  => Added observations: 702
+
+Bundle adjustment report
+------------------------
+    Residuals : 67110
+   Parameters : 12572
+   Iterations : 26
+         Time : 2.59952 [s]
+ Initial cost : 0.581547 [px]
+   Final cost : 0.554694 [px]
+  Termination : No convergence
+
+  => Merged observations: 408
+  => Completed observations: 121
+  => Filtered observations: 185
+  => Changed observations: 0.019966
+
+Bundle adjustment report
+------------------------
+    Residuals : 67194
+   Parameters : 12473
+   Iterations : 3
+         Time : 0.291364 [s]
+ Initial cost : 0.690991 [px]
+   Final cost : 0.68154 [px]
+  Termination : Convergence
+
+  => Merged observations: 8
+  => Completed observations: 11
+  => Filtered observations: 2
+  => Changed observations: 0.000587
+
+==============================================================================
+Registering image #11 (13)
+==============================================================================
+
+  => Image sees 2911 / 5253 points
+
+Pose refinement report
+----------------------
+    Residuals : 5904
+   Parameters : 6
+   Iterations : 9
+         Time : 0.0731049 [s]
+ Initial cost : 0.693888 [px]
+   Final cost : 0.553537 [px]
+  Termination : Convergence
+
+  => Continued observations: 2875
+  => Added observations: 1941
+
+Bundle adjustment report
+------------------------
+    Residuals : 70676
+   Parameters : 15080
+   Iterations : 26
+         Time : 2.68134 [s]
+ Initial cost : 0.576042 [px]
+   Final cost : 0.555456 [px]
+  Termination : No convergence
+
+  => Merged observations: 443
+  => Completed observations: 162
+  => Filtered observations: 156
+  => Changed observations: 0.019847
+
+Bundle adjustment report
+------------------------
+    Residuals : 70870
+   Parameters : 14963
+   Iterations : 3
+         Time : 0.298187 [s]
+ Initial cost : 0.68446 [px]
+   Final cost : 0.677207 [px]
+  Termination : Convergence
+
+  => Merged observations: 9
+  => Completed observations: 15
+  => Filtered observations: 1
+  => Changed observations: 0.000651
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 3
+  => Merged observations: 6
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.770590e+04    0.00e+00    3.44e+04   0.00e+00   0.00e+00  1.00e+04        0    1.11e-01    2.29e-01
+   1  4.742735e+04    2.79e+02    4.80e+03   4.18e+00   1.00e+00  3.00e+04        1    3.36e-01    5.65e-01
+   2  4.741991e+04    7.44e+00    1.38e+03   1.84e+00   9.98e-01  9.00e+04        1    3.31e-01    8.96e-01
+   3  4.741787e+04    2.04e+00    2.57e+02   7.07e-01   9.99e-01  2.70e+05        1    3.78e-01    1.27e+00
+   4  4.741700e+04    8.66e-01    2.26e+02   6.09e-01   1.00e+00  8.10e+05        1    3.64e-01    1.64e+00
+   5  4.741691e+04    9.16e-02    3.42e+01   2.39e-01   1.00e+00  2.43e+06        1    3.65e-01    2.00e+00
+   6  4.741691e+04    1.67e-03    1.97e+00   3.49e-02   1.01e+00  7.29e+06        1    3.50e-01    2.35e+00
+   7  4.741691e+04    5.00e-06    7.77e-01   1.95e-03   1.01e+00  2.19e+07        1    3.21e-01    2.67e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 110940
+   Parameters : 33898
+   Iterations : 8
+         Time : 2.67944 [s]
+ Initial cost : 0.655756 [px]
+   Final cost : 0.653766 [px]
+  Termination : Convergence
+
+  => Completed observations: 9
+  => Merged observations: 29
+  => Filtered observations: 6
+  => Changed observations: 0.000793
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  4.749171e+04    0.00e+00    7.07e+03   0.00e+00   0.00e+00  1.00e+04        0    1.20e-01    2.37e-01
+   1  4.744747e+04    4.42e+01    5.96e+01   6.39e-02   1.00e+00  3.00e+04        1    4.19e-01    6.57e-01
+   2  4.744744e+04    3.78e-02    5.17e+00   1.57e-02   9.99e-01  9.00e+04        1    3.98e-01    1.05e+00
+   3  4.744743e+04    2.27e-03    1.94e+00   1.93e-02   1.00e+00  2.70e+05        1    3.45e-01    1.40e+00
+   4  4.744743e+04    8.12e-04    1.93e+00   1.85e-02   1.00e+00  8.10e+05        1    3.10e-01    1.71e+00
+   5  4.744743e+04    8.76e-05    7.57e-01   7.35e-03   1.00e+00  2.43e+06        1    3.78e-01    2.09e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 110946
+   Parameters : 33886
+   Iterations : 6
+         Time : 2.09235 [s]
+ Initial cost : 0.654264 [px]
+   Final cost : 0.653959 [px]
+  Termination : Convergence
+
+  => Completed observations: 2
+  => Merged observations: 8
+  => Filtered observations: 4
+  => Changed observations: 0.000252
+  => Filtered images: 0
+
+==============================================================================
+Registering image #13 (14)
+==============================================================================
+
+  => Image sees 3274 / 4764 points
+
+Pose refinement report
+----------------------
+    Residuals : 6692
+   Parameters : 6
+   Iterations : 11
+         Time : 0.0931064 [s]
+ Initial cost : 0.67785 [px]
+   Final cost : 0.539093 [px]
+  Termination : Convergence
+
+  => Continued observations: 3237
+  => Added observations: 894
+
+Bundle adjustment report
+------------------------
+    Residuals : 72216
+   Parameters : 14498
+   Iterations : 26
+         Time : 2.80837 [s]
+ Initial cost : 0.557521 [px]
+   Final cost : 0.539874 [px]
+  Termination : No convergence
+
+  => Merged observations: 652
+  => Completed observations: 153
+  => Filtered observations: 198
+  => Changed observations: 0.025568
+
+Bundle adjustment report
+------------------------
+    Residuals : 72330
+   Parameters : 14285
+   Iterations : 3
+         Time : 0.334136 [s]
+ Initial cost : 0.664283 [px]
+   Final cost : 0.656287 [px]
+  Termination : Convergence
+
+  => Merged observations: 43
+  => Completed observations: 27
+  => Filtered observations: 3
+  => Changed observations: 0.001859
+
+==============================================================================
+Registering image #15 (15)
+==============================================================================
+
+  => Image sees 3448 / 4435 points
+
+Pose refinement report
+----------------------
+    Residuals : 7254
+   Parameters : 6
+   Iterations : 12
+         Time : 0.104881 [s]
+ Initial cost : 0.640646 [px]
+   Final cost : 0.600471 [px]
+  Termination : Convergence
+
+  => Continued observations: 3412
+  => Added observations: 457
+
+Bundle adjustment report
+------------------------
+    Residuals : 73278
+   Parameters : 14501
+   Iterations : 26
+         Time : 2.72406 [s]
+ Initial cost : 0.579716 [px]
+   Final cost : 0.560292 [px]
+  Termination : No convergence
+
+  => Merged observations: 1378
+  => Completed observations: 203
+  => Filtered observations: 252
+  => Changed observations: 0.045348
+
+Bundle adjustment report
+------------------------
+    Residuals : 73630
+   Parameters : 14225
+   Iterations : 3
+         Time : 0.284924 [s]
+ Initial cost : 0.699076 [px]
+   Final cost : 0.687929 [px]
+  Termination : Convergence
+
+  => Merged observations: 50
+  => Completed observations: 25
+  => Filtered observations: 11
+  => Changed observations: 0.002119
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 12
+  => Merged observations: 0
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  5.584345e+04    0.00e+00    5.89e+04   0.00e+00   0.00e+00  1.00e+04        0    1.41e-01    2.76e-01
+   1  5.565497e+04    1.88e+02    9.64e+02   1.32e-01   1.00e+00  3.00e+04        1    3.77e-01    6.53e-01
+   2  5.565416e+04    8.07e-01    5.68e+01   1.57e-01   1.00e+00  9.00e+04        1    3.81e-01    1.03e+00
+   3  5.565399e+04    1.73e-01    2.66e+01   1.73e-01   1.00e+00  2.70e+05        1    5.44e-01    1.58e+00
+   4  5.565390e+04    9.32e-02    2.08e+01   1.88e-01   1.00e+00  8.10e+05        1    3.24e-01    1.90e+00
+   5  5.565388e+04    1.38e-02    5.00e+00   8.99e-02   1.00e+00  2.43e+06        1    3.76e-01    2.28e+00
+   6  5.565388e+04    3.72e-04    1.97e+00   1.63e-02   1.01e+00  7.29e+06        1    4.00e-01    2.68e+00
+   7  5.565388e+04    1.59e-06    4.03e-01   1.10e-03   1.01e+00  2.19e+07        1    4.95e-01    3.17e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 126854
+   Parameters : 34753
+   Iterations : 8
+         Time : 3.17979 [s]
+ Initial cost : 0.663489 [px]
+   Final cost : 0.662362 [px]
+  Termination : Convergence
+
+  => Completed observations: 17
+  => Merged observations: 43
+  => Filtered observations: 10
+  => Changed observations: 0.001104
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  5.574635e+04    0.00e+00    1.02e+04   0.00e+00   0.00e+00  1.00e+04        0    1.28e-01    2.58e-01
+   1  5.567590e+04    7.04e+01    3.52e+01   3.11e-02   1.00e+00  3.00e+04        1    4.69e-01    7.27e-01
+   2  5.567589e+04    3.53e-03    1.99e+00   6.67e-03   1.00e+00  9.00e+04        1    3.82e-01    1.11e+00
+   3  5.567589e+04    5.79e-05    1.15e+00   2.31e-03   1.00e+00  2.70e+05        1    4.30e-01    1.54e+00
+   4  5.567589e+04    1.41e-05    1.97e-01   2.27e-03   1.00e+00  8.10e+05        1    4.15e-01    1.95e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 126868
+   Parameters : 34741
+   Iterations : 5
+         Time : 1.95824 [s]
+ Initial cost : 0.662876 [px]
+   Final cost : 0.662457 [px]
+  Termination : Convergence
+
+  => Completed observations: 3
+  => Merged observations: 9
+  => Filtered observations: 5
+  => Changed observations: 0.000268
+  => Filtered images: 0
+
+==============================================================================
+Registering image #14 (16)
+==============================================================================
+
+  => Image sees 2794 / 3596 points
+
+Pose refinement report
+----------------------
+    Residuals : 5814
+   Parameters : 6
+   Iterations : 17
+         Time : 0.121623 [s]
+ Initial cost : 0.656098 [px]
+   Final cost : 0.61119 [px]
+  Termination : Convergence
+
+  => Continued observations: 2763
+  => Added observations: 373
+
+Bundle adjustment report
+------------------------
+    Residuals : 68934
+   Parameters : 11393
+   Iterations : 26
+         Time : 2.38548 [s]
+ Initial cost : 0.578847 [px]
+   Final cost : 0.563952 [px]
+  Termination : No convergence
+
+  => Merged observations: 671
+  => Completed observations: 127
+  => Filtered observations: 236
+  => Changed observations: 0.026720
+
+Bundle adjustment report
+------------------------
+    Residuals : 68542
+   Parameters : 10412
+   Iterations : 3
+         Time : 0.273905 [s]
+ Initial cost : 0.689505 [px]
+   Final cost : 0.681683 [px]
+  Termination : Convergence
+
+  => Merged observations: 46
+  => Completed observations: 30
+  => Filtered observations: 3
+  => Changed observations: 0.002199
+
+==============================================================================
+Registering image #16 (17)
+==============================================================================
+
+  => Image sees 2166 / 2565 points
+
+Pose refinement report
+----------------------
+    Residuals : 4562
+   Parameters : 6
+   Iterations : 10
+         Time : 0.0561544 [s]
+ Initial cost : 0.710656 [px]
+   Final cost : 0.701899 [px]
+  Termination : Convergence
+
+  => Continued observations: 2132
+  => Added observations: 293
+
+Bundle adjustment report
+------------------------
+    Residuals : 63010
+   Parameters : 8663
+   Iterations : 26
+         Time : 2.1373 [s]
+ Initial cost : 0.627485 [px]
+   Final cost : 0.608535 [px]
+  Termination : No convergence
+
+  => Merged observations: 730
+  => Completed observations: 94
+  => Filtered observations: 435
+  => Changed observations: 0.034843
+
+Bundle adjustment report
+------------------------
+    Residuals : 63180
+   Parameters : 8525
+   Iterations : 3
+         Time : 0.264153 [s]
+ Initial cost : 0.748234 [px]
+   Final cost : 0.73849 [px]
+  Termination : Convergence
+
+  => Merged observations: 29
+  => Completed observations: 37
+  => Filtered observations: 5
+  => Changed observations: 0.001962
+
+==============================================================================
+Retriangulation
+==============================================================================
+
+  => Completed observations: 25
+  => Merged observations: 15
+  => Retriangulated observations: 0
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  6.456638e+04    0.00e+00    2.91e+04   0.00e+00   0.00e+00  1.00e+04        0    1.43e-01    2.79e-01
+   1  6.410567e+04    4.61e+02    2.85e+04   9.84e+00   9.97e-01  3.00e+04        1    4.51e-01    7.30e-01
+   2  6.408975e+04    1.59e+01    2.41e+03   3.24e+00   1.00e+00  9.00e+04        1    5.27e-01    1.26e+00
+   3  6.408955e+04    2.05e-01    4.92e+01   3.80e-01   1.00e+00  2.70e+05        1    4.65e-01    1.72e+00
+   4  6.408953e+04    1.44e-02    4.00e+00   7.04e-02   1.00e+00  8.10e+05        1    4.54e-01    2.18e+00
+   5  6.408953e+04    2.57e-03    1.94e+00   3.72e-02   1.00e+00  2.43e+06        1    4.19e-01    2.59e+00
+   6  6.408953e+04    8.90e-05    1.66e+00   7.75e-03   1.00e+00  7.29e+06        1    3.59e-01    2.95e+00
+   7  6.408953e+04    4.85e-07    1.68e-01   5.93e-04   1.01e+00  2.19e+07        1    4.81e-01    3.44e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 137254
+   Parameters : 34855
+   Iterations : 8
+         Time : 3.44067 [s]
+ Initial cost : 0.685868 [px]
+   Final cost : 0.683331 [px]
+  Termination : Convergence
+
+  => Completed observations: 18
+  => Merged observations: 46
+  => Filtered observations: 12
+  => Changed observations: 0.001107
+
+==============================================================================
+Global bundle adjustment
+==============================================================================
+
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time
+   0  6.422293e+04    0.00e+00    8.67e+03   0.00e+00   0.00e+00  1.00e+04        0    1.43e-01    2.80e-01
+   1  6.414864e+04    7.43e+01    1.91e+01   2.67e-01   1.00e+00  3.00e+04        1    4.27e-01    7.07e-01
+   2  6.414863e+04    1.14e-02    6.25e+00   8.76e-02   1.00e+00  9.00e+04        1    4.15e-01    1.12e+00
+   3  6.414863e+04    4.35e-04    1.79e+00   1.19e-02   9.98e-01  2.70e+05        1    4.56e-01    1.58e+00
+   4  6.414863e+04    2.02e-04    1.73e+00   7.22e-03   1.00e+00  8.10e+05        1    5.29e-01    2.11e+00
+   5  6.414863e+04    3.70e-05    6.95e-01   3.92e-03   1.00e+00  2.43e+06        1    4.00e-01    2.51e+00
+
+
+Bundle adjustment report
+------------------------
+    Residuals : 137266
+   Parameters : 34843
+   Iterations : 6
+         Time : 2.51127 [s]
+ Initial cost : 0.684012 [px]
+   Final cost : 0.683616 [px]
+  Termination : Convergence
+
+  => Completed observations: 1
+  => Merged observations: 0
+  => Filtered observations: 4
+  => Changed observations: 0.000073
+  => Filtered images: 0
+
+Elapsed time: 1.370 [minutes]
+
+==============================================================================
+Reading reconstruction
+==============================================================================
+
+ => Reconstruction with 17 images and 11582 points
+
+==============================================================================
+Image undistortion
+==============================================================================
+
+Undistorting image [1/17]
+Undistorting image [2/17]
+Undistorting image [3/17]
+Undistorting image [4/17]
+Undistorting image [5/17]
+Undistorting image [6/17]
+Undistorting image [7/17]
+Undistorting image [8/17]
+Undistorting image [9/17]
+Undistorting image [10/17]
+Undistorting image [11/17]
+Undistorting image [12/17]
+Undistorting image [13/17]
+Undistorting image [14/17]
+Undistorting image [15/17]
+Undistorting image [16/17]
+Undistorting image [17/17]
+Writing reconstruction...
+Writing configuration...
+Writing scripts...
+Elapsed time: 0.492 [minutes]
+Reading workspace...
+Reading configuration...
+Configuration has 17 problems...
+
+==============================================================================
+Processing view 1 / 17 for 20210929_180841.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 5
+src_image_idxs: 7 8 6 3 1 4 10 2 11 0 12 13 15 9 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.65629
+depth_max: 9.62073
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.7290s
+ Sweep 1: 2.6641s
+ Sweep 2: 2.4434s
+ Sweep 3: 2.4721s
+ Sweep 4: 2.3823s
+Iteration 1: 9.9622s
+ Sweep 1: 2.4608s
+ Sweep 2: 2.3816s
+ Sweep 3: 2.4044s
+ Sweep 4: 2.3578s
+Iteration 2: 9.6047s
+ Sweep 1: 2.4098s
+ Sweep 2: 2.3551s
+ Sweep 3: 2.3793s
+ Sweep 4: 2.3287s
+Iteration 3: 9.4731s
+ Sweep 1: 2.3793s
+ Sweep 2: 2.3193s
+ Sweep 3: 2.3604s
+ Sweep 4: 2.2909s
+Iteration 4: 9.3501s
+ Sweep 1: 2.3482s
+ Sweep 2: 2.2845s
+ Sweep 3: 2.3305s
+ Sweep 4: 2.2501s
+Iteration 5: 9.2134s
+Total: 48.3326s
+
+Writing photometric output for 20210929_180841.jpg
+
+==============================================================================
+Processing view 2 / 17 for 20210929_180844.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 6
+src_image_idxs: 7 5 8 10 3 0 2 1 4 12 15 11 13 9 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.45045
+depth_max: 10.1583
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6808s
+ Sweep 1: 2.6784s
+ Sweep 2: 2.4785s
+ Sweep 3: 2.5425s
+ Sweep 4: 2.4469s
+Iteration 1: 10.1465s
+ Sweep 1: 2.4931s
+ Sweep 2: 2.4395s
+ Sweep 3: 2.4265s
+ Sweep 4: 2.4210s
+Iteration 2: 9.7803s
+ Sweep 1: 2.4617s
+ Sweep 2: 2.4255s
+ Sweep 3: 2.4357s
+ Sweep 4: 2.4186s
+Iteration 3: 9.7418s
+ Sweep 1: 2.4623s
+ Sweep 2: 2.4079s
+ Sweep 3: 2.4610s
+ Sweep 4: 2.4130s
+Iteration 4: 9.7446s
+ Sweep 1: 2.4862s
+ Sweep 2: 2.3965s
+ Sweep 3: 2.4745s
+ Sweep 4: 2.3905s
+Iteration 5: 9.7480s
+Total: 49.8421s
+
+Writing photometric output for 20210929_180844.jpg
+
+==============================================================================
+Processing view 3 / 17 for 20210929_180853.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 4
+src_image_idxs: 8 9 5 7 1 6 3 10 2 13 0 16 11 15 12 14
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.53417
+depth_max: 10.84
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6858s
+ Sweep 1: 2.7774s
+ Sweep 2: 2.4865s
+ Sweep 3: 2.5374s
+ Sweep 4: 2.4320s
+Iteration 1: 10.2335s
+ Sweep 1: 2.4989s
+ Sweep 2: 2.4522s
+ Sweep 3: 2.4681s
+ Sweep 4: 2.4469s
+Iteration 2: 9.8663s
+ Sweep 1: 2.4753s
+ Sweep 2: 2.4700s
+ Sweep 3: 2.4775s
+ Sweep 4: 2.4725s
+Iteration 3: 9.8955s
+ Sweep 1: 2.4702s
+ Sweep 2: 2.4930s
+ Sweep 3: 2.4816s
+ Sweep 4: 2.4807s
+Iteration 4: 9.9256s
+ Sweep 1: 2.4661s
+ Sweep 2: 2.5064s
+ Sweep 3: 2.4925s
+ Sweep 4: 2.4655s
+Iteration 5: 9.9307s
+Total: 50.5377s
+
+Writing photometric output for 20210929_180853.jpg
+
+==============================================================================
+Processing view 4 / 17 for 20210929_180901.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 3
+src_image_idxs: 7 5 8 1 6 2 4 10 9 0 11 12 13 15 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.15141
+depth_max: 10.0357
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.7042s
+ Sweep 1: 2.8472s
+ Sweep 2: 2.5511s
+ Sweep 3: 2.6655s
+ Sweep 4: 2.4903s
+Iteration 1: 10.5544s
+ Sweep 1: 2.5788s
+ Sweep 2: 2.6317s
+ Sweep 3: 2.5924s
+ Sweep 4: 2.6088s
+Iteration 2: 10.4119s
+ Sweep 1: 2.5805s
+ Sweep 2: 2.7590s
+ Sweep 3: 2.5654s
+ Sweep 4: 2.6785s
+Iteration 3: 10.5836s
+ Sweep 1: 2.6045s
+ Sweep 2: 2.8284s
+ Sweep 3: 2.5746s
+ Sweep 4: 2.7688s
+Iteration 4: 10.7764s
+ Sweep 1: 2.6227s
+ Sweep 2: 2.8468s
+ Sweep 3: 2.5817s
+ Sweep 4: 2.7795s
+Iteration 5: 10.8310s
+Total: 53.8617s
+
+Writing photometric output for 20210929_180901.jpg
+
+==============================================================================
+Processing view 5 / 17 for 20210929_180908.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 2
+src_image_idxs: 7 3 5 6 8 1 10 4 0 9 13 12 15 11 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.44981
+depth_max: 10.7999
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.7039s
+ Sweep 1: 2.8019s
+ Sweep 2: 2.4703s
+ Sweep 3: 2.6897s
+ Sweep 4: 2.5244s
+Iteration 1: 10.4865s
+ Sweep 1: 2.6736s
+ Sweep 2: 2.5934s
+ Sweep 3: 2.6980s
+ Sweep 4: 2.6264s
+Iteration 2: 10.5915s
+ Sweep 1: 2.7000s
+ Sweep 2: 2.6464s
+ Sweep 3: 2.7580s
+ Sweep 4: 2.6604s
+Iteration 3: 10.7650s
+ Sweep 1: 2.7574s
+ Sweep 2: 2.6845s
+ Sweep 3: 2.8296s
+ Sweep 4: 2.6886s
+Iteration 4: 10.9604s
+ Sweep 1: 2.8099s
+ Sweep 2: 2.7085s
+ Sweep 3: 2.8831s
+ Sweep 4: 2.6907s
+Iteration 5: 11.0924s
+Total: 54.6000s
+
+Writing photometric output for 20210929_180908.jpg
+
+==============================================================================
+Processing view 6 / 17 for 20210929_180913.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 1
+src_image_idxs: 8 5 7 3 4 6 2 9 10 0 11 13 12 15 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.57962
+depth_max: 10.8024
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6982s
+ Sweep 1: 2.8878s
+ Sweep 2: 2.5018s
+ Sweep 3: 2.7062s
+ Sweep 4: 2.5121s
+Iteration 1: 10.6082s
+ Sweep 1: 2.6162s
+ Sweep 2: 2.5612s
+ Sweep 3: 2.6457s
+ Sweep 4: 2.5439s
+Iteration 2: 10.3672s
+ Sweep 1: 2.6235s
+ Sweep 2: 2.5480s
+ Sweep 3: 2.6430s
+ Sweep 4: 2.5458s
+Iteration 3: 10.3606s
+ Sweep 1: 2.6557s
+ Sweep 2: 2.5479s
+ Sweep 3: 2.6618s
+ Sweep 4: 2.5445s
+Iteration 4: 10.4101s
+ Sweep 1: 2.6944s
+ Sweep 2: 2.5419s
+ Sweep 3: 2.6656s
+ Sweep 4: 2.5279s
+Iteration 5: 10.4300s
+Total: 52.8746s
+
+Writing photometric output for 20210929_180913.jpg
+
+==============================================================================
+Processing view 7 / 17 for 20210929_180925.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 7
+src_image_idxs: 5 6 8 3 1 2 10 4 0 11 12 13 15 9 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.77715
+depth_max: 10.2449
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6792s
+ Sweep 1: 2.6369s
+ Sweep 2: 2.4300s
+ Sweep 3: 2.5350s
+ Sweep 4: 2.4323s
+Iteration 1: 10.0344s
+ Sweep 1: 2.4162s
+ Sweep 2: 2.4438s
+ Sweep 3: 2.4162s
+ Sweep 4: 2.4526s
+Iteration 2: 9.7290s
+ Sweep 1: 2.3872s
+ Sweep 2: 2.4806s
+ Sweep 3: 2.4082s
+ Sweep 4: 2.4585s
+Iteration 3: 9.7347s
+ Sweep 1: 2.3724s
+ Sweep 2: 2.4997s
+ Sweep 3: 2.4051s
+ Sweep 4: 2.4565s
+Iteration 4: 9.7339s
+ Sweep 1: 2.3618s
+ Sweep 2: 2.4918s
+ Sweep 3: 2.3940s
+ Sweep 4: 2.4428s
+Iteration 5: 9.6906s
+Total: 49.6020s
+
+Writing photometric output for 20210929_180925.jpg
+
+==============================================================================
+Processing view 8 / 17 for 20210929_180930.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 8
+src_image_idxs: 5 7 6 1 3 4 9 2 10 11 0 13 12 15 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.75813
+depth_max: 10.2582
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6761s
+ Sweep 1: 2.6796s
+ Sweep 2: 2.4673s
+ Sweep 3: 2.5793s
+ Sweep 4: 2.4572s
+Iteration 1: 10.1836s
+ Sweep 1: 2.4798s
+ Sweep 2: 2.4688s
+ Sweep 3: 2.4664s
+ Sweep 4: 2.4499s
+Iteration 2: 9.8651s
+ Sweep 1: 2.4801s
+ Sweep 2: 2.4636s
+ Sweep 3: 2.4547s
+ Sweep 4: 2.4611s
+Iteration 3: 9.8597s
+ Sweep 1: 2.5078s
+ Sweep 2: 2.4693s
+ Sweep 3: 2.4769s
+ Sweep 4: 2.4576s
+Iteration 4: 9.9118s
+ Sweep 1: 2.5301s
+ Sweep 2: 2.4666s
+ Sweep 3: 2.4979s
+ Sweep 4: 2.4505s
+Iteration 5: 9.9453s
+Total: 50.4418s
+
+Writing photometric output for 20210929_180930.jpg
+
+==============================================================================
+Processing view 9 / 17 for 20210929_180938.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 9
+src_image_idxs: 4 8 5 7 1 6 3 16 10 13 0 2 14 11 15 12
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.70376
+depth_max: 11.1552
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6862s
+ Sweep 1: 2.7162s
+ Sweep 2: 2.4242s
+ Sweep 3: 2.4742s
+ Sweep 4: 2.3963s
+Iteration 1: 10.0113s
+ Sweep 1: 2.4600s
+ Sweep 2: 2.4483s
+ Sweep 3: 2.4350s
+ Sweep 4: 2.4372s
+Iteration 2: 9.7808s
+ Sweep 1: 2.4746s
+ Sweep 2: 2.4642s
+ Sweep 3: 2.4629s
+ Sweep 4: 2.4571s
+Iteration 3: 9.8590s
+ Sweep 1: 2.5326s
+ Sweep 2: 2.4750s
+ Sweep 3: 2.4998s
+ Sweep 4: 2.4718s
+Iteration 4: 9.9794s
+ Sweep 1: 2.5699s
+ Sweep 2: 2.4795s
+ Sweep 3: 2.5249s
+ Sweep 4: 2.4726s
+Iteration 5: 10.0473s
+Total: 50.3642s
+
+Writing photometric output for 20210929_180938.jpg
+
+==============================================================================
+Processing view 10 / 17 for 20210929_180944.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 10
+src_image_idxs: 0 6 7 5 8 15 12 3 11 13 2 1 4 14 9 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.43484
+depth_max: 10.5748
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6890s
+ Sweep 1: 2.7850s
+ Sweep 2: 2.4690s
+ Sweep 3: 2.6210s
+ Sweep 4: 2.3922s
+Iteration 1: 10.2674s
+ Sweep 1: 2.5916s
+ Sweep 2: 2.5023s
+ Sweep 3: 2.5426s
+ Sweep 4: 2.4130s
+Iteration 2: 10.0497s
+ Sweep 1: 2.5759s
+ Sweep 2: 2.5620s
+ Sweep 3: 2.5403s
+ Sweep 4: 2.4558s
+Iteration 3: 10.1344s
+ Sweep 1: 2.5967s
+ Sweep 2: 2.6179s
+ Sweep 3: 2.5489s
+ Sweep 4: 2.4936s
+Iteration 4: 10.2573s
+ Sweep 1: 2.6061s
+ Sweep 2: 2.6492s
+ Sweep 3: 2.5511s
+ Sweep 4: 2.5230s
+Iteration 5: 10.3296s
+Total: 51.7277s
+
+Writing photometric output for 20210929_180944.jpg
+
+==============================================================================
+Processing view 11 / 17 for 20210929_180954.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 11
+src_image_idxs: 12 13 15 5 7 8 14 6 0 10 4 1 3 9 2 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.70013
+depth_max: 9.38856
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6996s
+ Sweep 1: 2.8125s
+ Sweep 2: 2.4856s
+ Sweep 3: 2.6780s
+ Sweep 4: 2.5417s
+Iteration 1: 10.5181s
+ Sweep 1: 2.6606s
+ Sweep 2: 2.5765s
+ Sweep 3: 2.6335s
+ Sweep 4: 2.6025s
+Iteration 2: 10.4732s
+ Sweep 1: 2.6411s
+ Sweep 2: 2.6505s
+ Sweep 3: 2.6339s
+ Sweep 4: 2.6629s
+Iteration 3: 10.5887s
+ Sweep 1: 2.6407s
+ Sweep 2: 2.7062s
+ Sweep 3: 2.6543s
+ Sweep 4: 2.6792s
+Iteration 4: 10.6805s
+ Sweep 1: 2.6402s
+ Sweep 2: 2.7310s
+ Sweep 3: 2.6563s
+ Sweep 4: 2.6726s
+Iteration 5: 10.7003s
+Total: 53.6606s
+
+Writing photometric output for 20210929_180954.jpg
+
+==============================================================================
+Processing view 12 / 17 for 20210929_180959.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 12
+src_image_idxs: 11 15 13 5 7 8 6 0 10 14 4 3 1 9 2 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.77733
+depth_max: 9.37815
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6984s
+ Sweep 1: 2.7565s
+ Sweep 2: 2.4379s
+ Sweep 3: 2.6398s
+ Sweep 4: 2.4518s
+Iteration 1: 10.2863s
+ Sweep 1: 2.5651s
+ Sweep 2: 2.5073s
+ Sweep 3: 2.6052s
+ Sweep 4: 2.5205s
+Iteration 2: 10.1983s
+ Sweep 1: 2.5424s
+ Sweep 2: 2.5311s
+ Sweep 3: 2.6162s
+ Sweep 4: 2.5319s
+Iteration 3: 10.2218s
+ Sweep 1: 2.5435s
+ Sweep 2: 2.5327s
+ Sweep 3: 2.6336s
+ Sweep 4: 2.5142s
+Iteration 4: 10.2242s
+ Sweep 1: 2.5487s
+ Sweep 2: 2.5184s
+ Sweep 3: 2.6336s
+ Sweep 4: 2.4871s
+Iteration 5: 10.1881s
+Total: 51.8173s
+
+Writing photometric output for 20210929_180959.jpg
+
+==============================================================================
+Processing view 13 / 17 for 20210929_181004.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 13
+src_image_idxs: 11 12 5 15 14 7 8 6 0 10 4 9 1 3 16 2
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.90312
+depth_max: 9.9493
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6942s
+ Sweep 1: 2.9320s
+ Sweep 2: 2.5203s
+ Sweep 3: 2.8085s
+ Sweep 4: 2.5326s
+Iteration 1: 10.7936s
+ Sweep 1: 2.7896s
+ Sweep 2: 2.5940s
+ Sweep 3: 2.7594s
+ Sweep 4: 2.5832s
+Iteration 2: 10.7263s
+ Sweep 1: 2.8170s
+ Sweep 2: 2.6005s
+ Sweep 3: 2.7776s
+ Sweep 4: 2.5908s
+Iteration 3: 10.7861s
+ Sweep 1: 2.8584s
+ Sweep 2: 2.6116s
+ Sweep 3: 2.8109s
+ Sweep 4: 2.5880s
+Iteration 4: 10.8692s
+ Sweep 1: 2.8817s
+ Sweep 2: 2.6104s
+ Sweep 3: 2.8216s
+ Sweep 4: 2.5765s
+Iteration 5: 10.8904s
+Total: 54.7601s
+
+Writing photometric output for 20210929_181004.jpg
+
+==============================================================================
+Processing view 14 / 17 for 20210929_181035.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 14
+src_image_idxs: 13 11 5 12 15 7 8 0 10 6 4 9 16 3 1 2
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 5.25414
+depth_max: 11.3387
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6943s
+ Sweep 1: 2.9067s
+ Sweep 2: 2.5867s
+ Sweep 3: 2.7527s
+ Sweep 4: 2.5515s
+Iteration 1: 10.7977s
+ Sweep 1: 2.6978s
+ Sweep 2: 2.6214s
+ Sweep 3: 2.7150s
+ Sweep 4: 2.6593s
+Iteration 2: 10.6936s
+ Sweep 1: 2.7099s
+ Sweep 2: 2.7119s
+ Sweep 3: 2.7227s
+ Sweep 4: 2.7310s
+Iteration 3: 10.8759s
+ Sweep 1: 2.7372s
+ Sweep 2: 2.7534s
+ Sweep 3: 2.7275s
+ Sweep 4: 2.7631s
+Iteration 4: 10.9815s
+ Sweep 1: 2.7606s
+ Sweep 2: 2.7820s
+ Sweep 3: 2.7348s
+ Sweep 4: 2.7665s
+Iteration 5: 11.0441s
+Total: 55.0872s
+
+Writing photometric output for 20210929_181035.jpg
+
+==============================================================================
+Processing view 15 / 17 for 20210929_181040.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 15
+src_image_idxs: 12 11 13 5 0 7 10 6 8 14 4 9 1 3 2 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 5.11471
+depth_max: 10.1908
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6999s
+ Sweep 1: 2.8004s
+ Sweep 2: 2.5650s
+ Sweep 3: 2.6813s
+ Sweep 4: 2.5469s
+Iteration 1: 10.5939s
+ Sweep 1: 2.6251s
+ Sweep 2: 2.5281s
+ Sweep 3: 2.6512s
+ Sweep 4: 2.5933s
+Iteration 2: 10.3979s
+ Sweep 1: 2.6133s
+ Sweep 2: 2.5918s
+ Sweep 3: 2.6505s
+ Sweep 4: 2.6821s
+Iteration 3: 10.5379s
+ Sweep 1: 2.6259s
+ Sweep 2: 2.6457s
+ Sweep 3: 2.6639s
+ Sweep 4: 2.7361s
+Iteration 4: 10.6718s
+ Sweep 1: 2.6475s
+ Sweep 2: 2.6653s
+ Sweep 3: 2.6727s
+ Sweep 4: 2.7637s
+Iteration 5: 10.7494s
+Total: 53.6510s
+
+Writing photometric output for 20210929_181040.jpg
+
+==============================================================================
+Processing view 16 / 17 for 20210929_181052.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 16
+src_image_idxs: 9 4 8 7 5 14 13 6 10 0 15 1 12 11 3 2
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 5.22059
+depth_max: 11.6455
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6887s
+ Sweep 1: 2.8861s
+ Sweep 2: 2.5772s
+ Sweep 3: 2.8048s
+ Sweep 4: 2.6051s
+Iteration 1: 10.8734s
+ Sweep 1: 2.7459s
+ Sweep 2: 2.5932s
+ Sweep 3: 2.7593s
+ Sweep 4: 2.6710s
+Iteration 2: 10.7696s
+ Sweep 1: 2.7950s
+ Sweep 2: 2.7121s
+ Sweep 3: 2.8615s
+ Sweep 4: 2.8630s
+Iteration 3: 11.2318s
+ Sweep 1: 2.8958s
+ Sweep 2: 2.8992s
+ Sweep 3: 2.9782s
+ Sweep 4: 3.0168s
+Iteration 4: 11.7903s
+ Sweep 1: 3.0182s
+ Sweep 2: 3.0635s
+ Sweep 3: 3.0743s
+ Sweep 4: 3.1305s
+Iteration 5: 12.2867s
+Total: 57.6408s
+
+Writing photometric output for 20210929_181052.jpg
+
+==============================================================================
+Processing view 17 / 17 for 20210929_181100.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 0
+src_image_idxs: 10 6 7 5 15 8 12 11 13 3 1 4 2 14 9 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.58741
+depth_max: 10.3615
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 0
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 0
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6911s
+ Sweep 1: 2.7296s
+ Sweep 2: 2.4592s
+ Sweep 3: 2.5554s
+ Sweep 4: 2.4426s
+Iteration 1: 10.1870s
+ Sweep 1: 2.4901s
+ Sweep 2: 2.4126s
+ Sweep 3: 2.4693s
+ Sweep 4: 2.4215s
+Iteration 2: 9.7937s
+ Sweep 1: 2.4624s
+ Sweep 2: 2.4363s
+ Sweep 3: 2.4652s
+ Sweep 4: 2.4279s
+Iteration 3: 9.7919s
+ Sweep 1: 2.4599s
+ Sweep 2: 2.4824s
+ Sweep 3: 2.4742s
+ Sweep 4: 2.4309s
+Iteration 4: 9.8476s
+ Sweep 1: 2.4679s
+ Sweep 2: 2.5193s
+ Sweep 3: 2.4749s
+ Sweep 4: 2.4350s
+Iteration 5: 9.8974s
+Total: 50.2089s
+
+Writing photometric output for 20210929_181100.jpg
+
+==============================================================================
+Processing view 1 / 17 for 20210929_180841.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 5
+src_image_idxs: 7 8 6 3 1 4 10 2 11 0 12 13 15 9 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.65629
+depth_max: 9.62073
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.7191s
+ Sweep 1: 3.4560s
+ Sweep 2: 3.3057s
+ Sweep 3: 3.4035s
+ Sweep 4: 3.2443s
+Iteration 1: 13.4096s
+ Sweep 1: 3.3973s
+ Sweep 2: 3.2796s
+ Sweep 3: 3.3400s
+ Sweep 4: 3.1969s
+Iteration 2: 13.2140s
+ Sweep 1: 3.3276s
+ Sweep 2: 3.2156s
+ Sweep 3: 3.2754s
+ Sweep 4: 3.1468s
+Iteration 3: 12.9656s
+ Sweep 1: 3.2533s
+ Sweep 2: 3.1547s
+ Sweep 3: 3.2048s
+ Sweep 4: 3.0756s
+Iteration 4: 12.6885s
+ Sweep 1: 3.1854s
+ Sweep 2: 3.0735s
+ Sweep 3: 3.1279s
+ Sweep 4: 3.1528s
+Iteration 5: 12.5398s
+Total: 65.5386s
+
+Writing geometric output for 20210929_180841.jpg
+
+==============================================================================
+Processing view 2 / 17 for 20210929_180844.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 6
+src_image_idxs: 7 5 8 10 3 0 2 1 4 12 15 11 13 9 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.45045
+depth_max: 10.1583
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6074s
+ Sweep 1: 3.5317s
+ Sweep 2: 3.4264s
+ Sweep 3: 3.5019s
+ Sweep 4: 3.3988s
+Iteration 1: 13.8591s
+ Sweep 1: 3.5245s
+ Sweep 2: 3.4259s
+ Sweep 3: 3.5109s
+ Sweep 4: 3.3760s
+Iteration 2: 13.8375s
+ Sweep 1: 3.5136s
+ Sweep 2: 3.3802s
+ Sweep 3: 3.4963s
+ Sweep 4: 3.3448s
+Iteration 3: 13.7353s
+ Sweep 1: 3.4890s
+ Sweep 2: 3.3342s
+ Sweep 3: 3.4718s
+ Sweep 4: 3.3060s
+Iteration 4: 13.6012s
+ Sweep 1: 3.4558s
+ Sweep 2: 3.2795s
+ Sweep 3: 3.4350s
+ Sweep 4: 3.3828s
+Iteration 5: 13.5534s
+Total: 69.1940s
+
+Writing geometric output for 20210929_180844.jpg
+
+==============================================================================
+Processing view 3 / 17 for 20210929_180853.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 4
+src_image_idxs: 8 9 5 7 1 6 3 10 2 13 0 16 11 15 12 14
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.53417
+depth_max: 10.84
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.5990s
+ Sweep 1: 3.5842s
+ Sweep 2: 3.3764s
+ Sweep 3: 3.5491s
+ Sweep 4: 3.3624s
+Iteration 1: 13.8723s
+ Sweep 1: 3.5734s
+ Sweep 2: 3.3697s
+ Sweep 3: 3.5268s
+ Sweep 4: 3.3417s
+Iteration 2: 13.8118s
+ Sweep 1: 3.5352s
+ Sweep 2: 3.3499s
+ Sweep 3: 3.5019s
+ Sweep 4: 3.3180s
+Iteration 3: 13.7052s
+ Sweep 1: 3.4854s
+ Sweep 2: 3.3283s
+ Sweep 3: 3.4803s
+ Sweep 4: 3.2857s
+Iteration 4: 13.5800s
+ Sweep 1: 3.4362s
+ Sweep 2: 3.2925s
+ Sweep 3: 3.4508s
+ Sweep 4: 3.3762s
+Iteration 5: 13.5559s
+Total: 69.1244s
+
+Writing geometric output for 20210929_180853.jpg
+
+==============================================================================
+Processing view 4 / 17 for 20210929_180901.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 3
+src_image_idxs: 7 5 8 1 6 2 4 10 9 0 11 12 13 15 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.15141
+depth_max: 10.0357
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6053s
+ Sweep 1: 3.5852s
+ Sweep 2: 3.5413s
+ Sweep 3: 3.5745s
+ Sweep 4: 3.5286s
+Iteration 1: 14.2298s
+ Sweep 1: 3.5885s
+ Sweep 2: 3.5948s
+ Sweep 3: 3.5636s
+ Sweep 4: 3.5491s
+Iteration 2: 14.2961s
+ Sweep 1: 3.5899s
+ Sweep 2: 3.6115s
+ Sweep 3: 3.5605s
+ Sweep 4: 3.5806s
+Iteration 3: 14.3429s
+ Sweep 1: 3.5835s
+ Sweep 2: 3.6344s
+ Sweep 3: 3.5421s
+ Sweep 4: 3.5874s
+Iteration 4: 14.3476s
+ Sweep 1: 3.5594s
+ Sweep 2: 3.6394s
+ Sweep 3: 3.5055s
+ Sweep 4: 3.7163s
+Iteration 5: 14.4207s
+Total: 72.2426s
+
+Writing geometric output for 20210929_180901.jpg
+
+==============================================================================
+Processing view 5 / 17 for 20210929_180908.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 2
+src_image_idxs: 7 3 5 6 8 1 10 4 0 9 13 12 15 11 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.44981
+depth_max: 10.7999
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6337s
+ Sweep 1: 3.6872s
+ Sweep 2: 3.5755s
+ Sweep 3: 3.7658s
+ Sweep 4: 3.6547s
+Iteration 1: 14.6834s
+ Sweep 1: 3.7481s
+ Sweep 2: 3.6394s
+ Sweep 3: 3.8022s
+ Sweep 4: 3.6689s
+Iteration 2: 14.8588s
+ Sweep 1: 3.7782s
+ Sweep 2: 3.6419s
+ Sweep 3: 3.8433s
+ Sweep 4: 3.6473s
+Iteration 3: 14.9110s
+ Sweep 1: 3.8017s
+ Sweep 2: 3.6507s
+ Sweep 3: 3.8727s
+ Sweep 4: 3.6376s
+Iteration 4: 14.9629s
+ Sweep 1: 3.8210s
+ Sweep 2: 3.6396s
+ Sweep 3: 3.8941s
+ Sweep 4: 3.7326s
+Iteration 5: 15.0875s
+Total: 75.1375s
+
+Writing geometric output for 20210929_180908.jpg
+
+==============================================================================
+Processing view 6 / 17 for 20210929_180913.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 1
+src_image_idxs: 8 5 7 3 4 6 2 9 10 0 11 13 12 15 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.57962
+depth_max: 10.8024
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6184s
+ Sweep 1: 3.6360s
+ Sweep 2: 3.4995s
+ Sweep 3: 3.6520s
+ Sweep 4: 3.5318s
+Iteration 1: 14.3194s
+ Sweep 1: 3.6863s
+ Sweep 2: 3.5291s
+ Sweep 3: 3.6591s
+ Sweep 4: 3.5166s
+Iteration 2: 14.3914s
+ Sweep 1: 3.7127s
+ Sweep 2: 3.5284s
+ Sweep 3: 3.6637s
+ Sweep 4: 3.5403s
+Iteration 3: 14.4453s
+ Sweep 1: 3.7368s
+ Sweep 2: 3.5596s
+ Sweep 3: 3.6717s
+ Sweep 4: 3.5755s
+Iteration 4: 14.5437s
+ Sweep 1: 3.7506s
+ Sweep 2: 3.5723s
+ Sweep 3: 3.6684s
+ Sweep 4: 3.7035s
+Iteration 5: 14.6950s
+Total: 73.0134s
+
+Writing geometric output for 20210929_180913.jpg
+
+==============================================================================
+Processing view 7 / 17 for 20210929_180925.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 7
+src_image_idxs: 5 6 8 3 1 2 10 4 0 11 12 13 15 9 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.77715
+depth_max: 10.2449
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6054s
+ Sweep 1: 3.4511s
+ Sweep 2: 3.4330s
+ Sweep 3: 3.4964s
+ Sweep 4: 3.4448s
+Iteration 1: 13.8255s
+ Sweep 1: 3.4556s
+ Sweep 2: 3.4323s
+ Sweep 3: 3.4926s
+ Sweep 4: 3.4377s
+Iteration 2: 13.8184s
+ Sweep 1: 3.4427s
+ Sweep 2: 3.4082s
+ Sweep 3: 3.4762s
+ Sweep 4: 3.4168s
+Iteration 3: 13.7440s
+ Sweep 1: 3.4149s
+ Sweep 2: 3.3701s
+ Sweep 3: 3.4415s
+ Sweep 4: 3.3789s
+Iteration 4: 13.6057s
+ Sweep 1: 3.3728s
+ Sweep 2: 3.3353s
+ Sweep 3: 3.3966s
+ Sweep 4: 3.4656s
+Iteration 5: 13.5706s
+Total: 69.1698s
+
+Writing geometric output for 20210929_180925.jpg
+
+==============================================================================
+Processing view 8 / 17 for 20210929_180930.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 8
+src_image_idxs: 5 7 6 1 3 4 9 2 10 11 0 13 12 15 14 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.75813
+depth_max: 10.2582
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6108s
+ Sweep 1: 3.5202s
+ Sweep 2: 3.4739s
+ Sweep 3: 3.5143s
+ Sweep 4: 3.4727s
+Iteration 1: 13.9814s
+ Sweep 1: 3.5294s
+ Sweep 2: 3.5033s
+ Sweep 3: 3.5275s
+ Sweep 4: 3.4796s
+Iteration 2: 14.0401s
+ Sweep 1: 3.5337s
+ Sweep 2: 3.5088s
+ Sweep 3: 3.5269s
+ Sweep 4: 3.4861s
+Iteration 3: 14.0557s
+ Sweep 1: 3.5263s
+ Sweep 2: 3.5164s
+ Sweep 3: 3.5211s
+ Sweep 4: 3.4854s
+Iteration 4: 14.0494s
+ Sweep 1: 3.5217s
+ Sweep 2: 3.5073s
+ Sweep 3: 3.5004s
+ Sweep 4: 3.5851s
+Iteration 5: 14.1147s
+Total: 70.8522s
+
+Writing geometric output for 20210929_180930.jpg
+
+==============================================================================
+Processing view 9 / 17 for 20210929_180938.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 9
+src_image_idxs: 4 8 5 7 1 6 3 16 10 13 0 2 14 11 15 12
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.70376
+depth_max: 11.1552
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.5858s
+ Sweep 1: 3.5484s
+ Sweep 2: 3.3498s
+ Sweep 3: 3.5505s
+ Sweep 4: 3.3575s
+Iteration 1: 13.8065s
+ Sweep 1: 3.5559s
+ Sweep 2: 3.3484s
+ Sweep 3: 3.5418s
+ Sweep 4: 3.3238s
+Iteration 2: 13.7702s
+ Sweep 1: 3.5412s
+ Sweep 2: 3.3300s
+ Sweep 3: 3.5210s
+ Sweep 4: 3.3004s
+Iteration 3: 13.6928s
+ Sweep 1: 3.5178s
+ Sweep 2: 3.3100s
+ Sweep 3: 3.4877s
+ Sweep 4: 3.2747s
+Iteration 4: 13.5903s
+ Sweep 1: 3.4787s
+ Sweep 2: 3.2780s
+ Sweep 3: 3.4440s
+ Sweep 4: 3.3761s
+Iteration 5: 13.5770s
+Total: 69.0228s
+
+Writing geometric output for 20210929_180938.jpg
+
+==============================================================================
+Processing view 10 / 17 for 20210929_180944.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 10
+src_image_idxs: 0 6 7 5 8 15 12 3 11 13 2 1 4 14 9 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.43484
+depth_max: 10.5748
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6123s
+ Sweep 1: 3.6425s
+ Sweep 2: 3.4347s
+ Sweep 3: 3.5959s
+ Sweep 4: 3.3427s
+Iteration 1: 14.0160s
+ Sweep 1: 3.6385s
+ Sweep 2: 3.4847s
+ Sweep 3: 3.5701s
+ Sweep 4: 3.3591s
+Iteration 2: 14.0526s
+ Sweep 1: 3.6102s
+ Sweep 2: 3.4996s
+ Sweep 3: 3.5261s
+ Sweep 4: 3.3708s
+Iteration 3: 14.0069s
+ Sweep 1: 3.5758s
+ Sweep 2: 3.5120s
+ Sweep 3: 3.4910s
+ Sweep 4: 3.3750s
+Iteration 4: 13.9540s
+ Sweep 1: 3.5433s
+ Sweep 2: 3.5101s
+ Sweep 3: 3.4406s
+ Sweep 4: 3.4863s
+Iteration 5: 13.9806s
+Total: 70.6226s
+
+Writing geometric output for 20210929_180944.jpg
+
+==============================================================================
+Processing view 11 / 17 for 20210929_180954.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 11
+src_image_idxs: 12 13 15 5 7 8 14 6 0 10 4 1 3 9 2 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.70013
+depth_max: 9.38856
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6626s
+ Sweep 1: 3.6637s
+ Sweep 2: 3.5407s
+ Sweep 3: 3.6461s
+ Sweep 4: 3.5195s
+Iteration 1: 14.3702s
+ Sweep 1: 3.6481s
+ Sweep 2: 3.5735s
+ Sweep 3: 3.6530s
+ Sweep 4: 3.5318s
+Iteration 2: 14.4067s
+ Sweep 1: 3.6464s
+ Sweep 2: 3.5914s
+ Sweep 3: 3.6591s
+ Sweep 4: 3.5302s
+Iteration 3: 14.4275s
+ Sweep 1: 3.6464s
+ Sweep 2: 3.5923s
+ Sweep 3: 3.6598s
+ Sweep 4: 3.5185s
+Iteration 4: 14.4173s
+ Sweep 1: 3.6382s
+ Sweep 2: 3.5857s
+ Sweep 3: 3.6496s
+ Sweep 4: 3.6153s
+Iteration 5: 14.4892s
+Total: 72.7738s
+
+Writing geometric output for 20210929_180954.jpg
+
+==============================================================================
+Processing view 12 / 17 for 20210929_180959.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 12
+src_image_idxs: 11 15 13 5 7 8 6 0 10 14 4 3 1 9 2 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.77733
+depth_max: 9.37815
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6379s
+ Sweep 1: 3.5479s
+ Sweep 2: 3.4238s
+ Sweep 3: 3.5862s
+ Sweep 4: 3.4292s
+Iteration 1: 13.9874s
+ Sweep 1: 3.5348s
+ Sweep 2: 3.4402s
+ Sweep 3: 3.5847s
+ Sweep 4: 3.4178s
+Iteration 2: 13.9778s
+ Sweep 1: 3.5202s
+ Sweep 2: 3.4240s
+ Sweep 3: 3.5790s
+ Sweep 4: 3.3798s
+Iteration 3: 13.9031s
+ Sweep 1: 3.5046s
+ Sweep 2: 3.4003s
+ Sweep 3: 3.5694s
+ Sweep 4: 3.3364s
+Iteration 4: 13.8110s
+ Sweep 1: 3.4773s
+ Sweep 2: 3.3642s
+ Sweep 3: 3.5472s
+ Sweep 4: 3.4151s
+Iteration 5: 13.8040s
+Total: 70.1215s
+
+Writing geometric output for 20210929_180959.jpg
+
+==============================================================================
+Processing view 13 / 17 for 20210929_181004.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 13
+src_image_idxs: 11 12 5 15 14 7 8 6 0 10 4 9 1 3 16 2
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.90312
+depth_max: 9.9493
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6563s
+ Sweep 1: 3.7324s
+ Sweep 2: 3.4888s
+ Sweep 3: 3.7186s
+ Sweep 4: 3.4885s
+Iteration 1: 14.4286s
+ Sweep 1: 3.7338s
+ Sweep 2: 3.5123s
+ Sweep 3: 3.6983s
+ Sweep 4: 3.4912s
+Iteration 2: 14.4359s
+ Sweep 1: 3.7317s
+ Sweep 2: 3.4991s
+ Sweep 3: 3.6895s
+ Sweep 4: 3.4832s
+Iteration 3: 14.4036s
+ Sweep 1: 3.7271s
+ Sweep 2: 3.4794s
+ Sweep 3: 3.6796s
+ Sweep 4: 3.4986s
+Iteration 4: 14.3849s
+ Sweep 1: 3.7197s
+ Sweep 2: 3.4530s
+ Sweep 3: 3.6659s
+ Sweep 4: 3.6113s
+Iteration 5: 14.4501s
+Total: 72.7595s
+
+Writing geometric output for 20210929_181004.jpg
+
+==============================================================================
+Processing view 14 / 17 for 20210929_181035.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 14
+src_image_idxs: 13 11 5 12 15 7 8 0 10 6 4 9 16 3 1 2
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 5.25414
+depth_max: 11.3387
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6256s
+ Sweep 1: 3.6742s
+ Sweep 2: 3.5911s
+ Sweep 3: 3.6923s
+ Sweep 4: 3.5738s
+Iteration 1: 14.5318s
+ Sweep 1: 3.6904s
+ Sweep 2: 3.6380s
+ Sweep 3: 3.7042s
+ Sweep 4: 3.6068s
+Iteration 2: 14.6396s
+ Sweep 1: 3.6972s
+ Sweep 2: 3.6624s
+ Sweep 3: 3.7130s
+ Sweep 4: 3.6299s
+Iteration 3: 14.7027s
+ Sweep 1: 3.7130s
+ Sweep 2: 3.6839s
+ Sweep 3: 3.7160s
+ Sweep 4: 3.6417s
+Iteration 4: 14.7547s
+ Sweep 1: 3.7219s
+ Sweep 2: 3.6936s
+ Sweep 3: 3.7118s
+ Sweep 4: 3.7584s
+Iteration 5: 14.8860s
+Total: 74.1406s
+
+Writing geometric output for 20210929_181035.jpg
+
+==============================================================================
+Processing view 15 / 17 for 20210929_181040.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 15
+src_image_idxs: 12 11 13 5 0 7 10 6 8 14 4 9 1 3 2 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 5.11471
+depth_max: 10.1908
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6454s
+ Sweep 1: 3.6336s
+ Sweep 2: 3.5803s
+ Sweep 3: 3.6740s
+ Sweep 4: 3.6654s
+Iteration 1: 14.5536s
+ Sweep 1: 3.6474s
+ Sweep 2: 3.6421s
+ Sweep 3: 3.6891s
+ Sweep 4: 3.7253s
+Iteration 2: 14.7041s
+ Sweep 1: 3.6502s
+ Sweep 2: 3.6779s
+ Sweep 3: 3.6991s
+ Sweep 4: 3.7671s
+Iteration 3: 14.7946s
+ Sweep 1: 3.6555s
+ Sweep 2: 3.7071s
+ Sweep 3: 3.7052s
+ Sweep 4: 3.8015s
+Iteration 4: 14.8695s
+ Sweep 1: 3.6540s
+ Sweep 2: 3.7169s
+ Sweep 3: 3.7059s
+ Sweep 4: 3.9406s
+Iteration 5: 15.0176s
+Total: 74.5850s
+
+Writing geometric output for 20210929_181040.jpg
+
+==============================================================================
+Processing view 16 / 17 for 20210929_181052.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 16
+src_image_idxs: 9 4 8 7 5 14 13 6 10 0 15 1 12 11 3 2
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 5.22059
+depth_max: 11.6455
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.6356s
+ Sweep 1: 3.7893s
+ Sweep 2: 3.6337s
+ Sweep 3: 3.8196s
+ Sweep 4: 3.7520s
+Iteration 1: 14.9949s
+ Sweep 1: 3.8411s
+ Sweep 2: 3.7547s
+ Sweep 3: 3.8513s
+ Sweep 4: 3.8406s
+Iteration 2: 15.2879s
+ Sweep 1: 3.8952s
+ Sweep 2: 3.8668s
+ Sweep 3: 3.8831s
+ Sweep 4: 3.9615s
+Iteration 3: 15.6069s
+ Sweep 1: 3.9749s
+ Sweep 2: 4.0053s
+ Sweep 3: 3.9506s
+ Sweep 4: 4.1062s
+Iteration 4: 16.0373s
+ Sweep 1: 4.0521s
+ Sweep 2: 4.1425s
+ Sweep 3: 4.0189s
+ Sweep 4: 4.3327s
+Iteration 5: 16.5465s
+Total: 79.1092s
+
+Writing geometric output for 20210929_181052.jpg
+
+==============================================================================
+Processing view 17 / 17 for 20210929_181100.jpg
+==============================================================================
+
+Reading inputs...
+
+PatchMatch::Problem
+-------------------
+ref_image_idx: 0
+src_image_idxs: 10 6 7 5 15 8 12 11 13 3 1 4 2 14 9 16
+
+PatchMatchOptions
+-----------------
+max_image_size: -1
+gpu_index: 0
+depth_min: 4.58741
+depth_max: 10.3615
+window_radius: 5
+window_step: 1
+sigma_spatial: 5
+sigma_color: 0.2
+num_samples: 15
+ncc_sigma: 0.6
+min_triangulation_angle: 1
+incident_angle_sigma: 0.9
+num_iterations: 5
+geom_consistency: 1
+geom_consistency_regularizer: 0.3
+geom_consistency_max_cost: 3
+filter: 1
+filter_min_ncc: 0.1
+filter_min_triangulation_angle: 3
+filter_min_num_consistent: 2
+filter_geom_consistency_max_cost: 1
+write_consistency_graph: 0
+allow_missing_files: 0
+
+PatchMatch::Run
+---------------
+Initialization: 0.5882s
+ Sweep 1: 3.5745s
+ Sweep 2: 3.3004s
+ Sweep 3: 3.5852s
+ Sweep 4: 3.2155s
+Iteration 1: 13.6758s
+ Sweep 1: 3.5647s
+ Sweep 2: 3.3326s
+ Sweep 3: 3.5589s
+ Sweep 4: 3.2248s
+Iteration 2: 13.6811s
+ Sweep 1: 3.5303s
+ Sweep 2: 3.3407s
+ Sweep 3: 3.5492s
+ Sweep 4: 3.2186s
+Iteration 3: 13.6390s
+ Sweep 1: 3.4893s
+ Sweep 2: 3.3499s
+ Sweep 3: 3.5271s
+ Sweep 4: 3.2154s
+Iteration 4: 13.5819s
+ Sweep 1: 3.4331s
+ Sweep 2: 3.3419s
+ Sweep 3: 3.4911s
+ Sweep 4: 3.3351s
+Iteration 5: 13.6014s
+Total: 68.7675s
+
+Writing geometric output for 20210929_181100.jpg
+Elapsed time: 36.469 [minutes]
+
+StereoFusion::Options
+---------------------
+mask_path: 
+max_image_size: -1
+min_num_pixels: 5
+max_num_pixels: 10000
+max_traversal_depth: 100
+max_reproj_error: 2
+max_depth_error: 0.01
+max_normal_error: 10
+check_num_images: 50
+use_cache: 0
+cache_size: 32
+bbox_min: -3.40282e+38 -3.40282e+38 -3.40282e+38
+bbox_max: 3.40282e+38 3.40282e+38 3.40282e+38
+
+Reading workspace...
+Loading workspace data with 2 threads...
+Elapsed time: 0.145 [minutes]
+Reading configuration...
+Starting fusion with 2 threads
+Fusing image [1/17] with index 0 in 10.158s (240616 points)
+Fusing image [2/17] with index 10 in 3.413s (352600 points)
+Fusing image [3/17] with index 6 in 3.195s (463557 points)
+Fusing image [4/17] with index 7 in 2.012s (520747 points)
+Fusing image [5/17] with index 5 in 1.893s (555818 points)
+Fusing image [6/17] with index 8 in 1.397s (573307 points)
+Fusing image [7/17] with index 1 in 1.270s (581797 points)
+Fusing image [8/17] with index 3 in 1.247s (586193 points)
+Fusing image [9/17] with index 2 in 1.099s (587940 points)
+Fusing image [10/17] with index 4 in 1.064s (590713 points)
+Fusing image [11/17] with index 9 in 0.919s (592284 points)
+Fusing image [12/17] with index 16 in 0.991s (594975 points)
+Fusing image [13/17] with index 14 in 0.931s (598256 points)
+Fusing image [14/17] with index 13 in 0.961s (600371 points)
+Fusing image [15/17] with index 11 in 0.861s (601019 points)
+Fusing image [16/17] with index 12 in 0.785s (601063 points)
+Fusing image [17/17] with index 15 in 0.750s (601063 points)
+Number of fused points: 601063
+Elapsed time: 0.699 [minutes]
+Writing output: /content/drive/MyDrive/IDR-UVField/data/ocr_set/data/paper3/dense/fused.ply
+Value Range: [2.000184,11.787376]
+Triangulating points...
+Triangulation has 90729 using 601063 points.
+Initializing ray tracer...
+Initializing graph optimization...
+Integrating image [1/17] in 10.607s
+Integrating image [2/17] in 3.017s
+Integrating image [3/17] in 9.007s
+Integrating image [4/17] in 5.234s
+Integrating image [5/17] in 7.442s
+Integrating image [6/17] in 7.709s
+Integrating image [7/17] in 4.988s
+Integrating image [8/17] in 9.963s
+Integrating image [9/17] in 4.640s
+Integrating image [10/17] in 8.001s
+Integrating image [11/17] in 4.255s
+Integrating image [12/17] in 8.773s
+Integrating image [13/17] in 3.692s
+Integrating image [14/17] in 8.150s
+Integrating image [15/17] in 2.680s
+Integrating image [16/17] in 8.702s
+Integrating image [17/17] in 0.755s
+Setting up optimization...
+Running graph-cut optimization...
+Extracting surface as min-cut...
+Creating surface mesh model...
+Writing surface mesh...
+Elapsed time: 117.83163 [seconds]
