@@ -2,6 +2,7 @@
 # Iso-UVField
 Learning an Isometric Surface Parameterization for Texture Unwrapping (ECCV 2022)
 
+**This code is still in the cleaning phase. I expect to release a better version after Nov. 2nd. In the meantime, if you need urgent results or models, please contact me: sadas[at]cs[dot]stonybrook[dot]edu.TY!**
 
 #### Environment Setup:
 
