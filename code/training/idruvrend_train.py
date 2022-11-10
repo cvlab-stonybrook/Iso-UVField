@@ -1,8 +1,8 @@
 import os
 from datetime import datetime
-from pyhocon import ConfigFactory
 import sys
 import torch
+from pyhocon.tool import HOCONConverter
 
 import utils.general as utils
 import utils.plots as plt
@@ -12,20 +12,17 @@ class IDRTrainRunner():
     def __init__(self,**kwargs):
         torch.set_default_dtype(torch.float32)
 
-        self.conf = ConfigFactory.parse_file(kwargs['conf'])
+        self.conf = kwargs['parsed_conf']
         self.batch_size = kwargs['batch_size']
         self.nepochs = kwargs['nepochs']
         self.exps_folder_name = kwargs['exps_folder_name']
         self.GPU_INDEX = kwargs['gpu_index']
         self.train_cameras = kwargs['train_cameras']
-        initmode=kwargs['initmode']
+        sdf_init = kwargs['sdf_init']
 
         self.expname = self.conf.get_string('train.expname') + kwargs['expname']
         # print (self.expname)
         print (kwargs['conf'])
-        scan_id = kwargs['scan_id'] if kwargs['scan_id'] != -1 else self.conf.get_int('dataset.scan_id', default=-1)
-        if scan_id != -1:
-            self.expname = self.expname + '_{0}'.format(scan_id)
 
         if kwargs['is_continue'] and kwargs['timestamp'] == 'latest':
             if os.path.exists(os.path.join('../',kwargs['exps_folder_name'],self.expname)):
@@ -70,7 +67,9 @@ class IDRTrainRunner():
             utils.mkdir_ifnotexists(os.path.join(self.checkpoints_path, self.optimizer_cam_params_subdir))
             utils.mkdir_ifnotexists(os.path.join(self.checkpoints_path, self.cam_params_subdir))
 
-        os.system("""cp -r {0} "{1}" """.format(kwargs['conf'], os.path.join(self.expdir, self.timestamp, 'runconf.conf')))
+        config_dump = HOCONConverter.convert(self.conf, 'hocon')
+        with open(os.path.join(self.expdir, self.timestamp, 'runconf.conf'),'w') as f:
+            f.write(config_dump)
 
         if (not self.GPU_INDEX == 'ignore'):
             os.environ["CUDA_VISIBLE_DEVICES"] = '{0}'.format(self.GPU_INDEX)
@@ -80,8 +79,6 @@ class IDRTrainRunner():
         print('Loading data ...')
 
         dataset_conf = self.conf.get_config('dataset')
-        if kwargs['scan_id'] != -1:
-            dataset_conf['scan_id'] = kwargs['scan_id']
 
         self.train_dataset = utils.get_class(self.conf.get_string('train.dataset_class'))(self.train_cameras,
                                                                                           **dataset_conf)
@@ -132,24 +129,23 @@ class IDRTrainRunner():
                 uvfwd_saved_model_state = torch.load("../exps/doc3d_uvprior/latest_uvfwd2.pth")
                 uvfwd_saved_model_state["model_state_dict"]=utils.update_state_dict(uvfwd_saved_model_state["model_state_dict"],'forward_network.lin','lin' )
                 self.model.forward_network.load_state_dict(uvfwd_saved_model_state["model_state_dict"], strict=True)
+            elif sdf_init:
+                impl_saved_model_state = torch.load(os.path.join(old_checkpnts_dir, 'ModelParameters', str(kwargs['checkpoint']) + ".pth"))
+                impl_saved_model_state["model_state_dict"]=utils.update_state_dict(impl_saved_model_state["model_state_dict"],'implicit_network.lin','lin' )
+                self.model.implicit_network.load_state_dict(impl_saved_model_state["model_state_dict"], strict=False)
+                
+                uvfwd_saved_model_state = torch.load("../exps/doc3d_uvprior/latest_uvfwd2.pth")
+                uvfwd_saved_model_state["model_state_dict"]=utils.update_state_dict(uvfwd_saved_model_state["model_state_dict"],'forward_network.lin','lin' )
+                self.model.forward_network.load_state_dict(uvfwd_saved_model_state["model_state_dict"], strict=False)
+                
+                uvbwd_saved_model_state = torch.load('../exps/doc3d_3dfield/1.pth')
+                uvbwd_saved_model_state["model_state_dict"]=utils.update_state_dict(uvbwd_saved_model_state["model_state_dict"],'backward_network.lin','lin' )
+                self.model.backward_network.load_state_dict(uvbwd_saved_model_state["model_state_dict"], strict=False)
             else:
-                if trainstep=='step1':
-                    impl_saved_model_state = torch.load(os.path.join(old_checkpnts_dir, 'ModelParameters', str(kwargs['checkpoint']) + ".pth"))
-                    impl_saved_model_state["model_state_dict"]=utils.update_state_dict(impl_saved_model_state["model_state_dict"],'implicit_network.lin','lin' )
-                    self.model.implicit_network.load_state_dict(impl_saved_model_state["model_state_dict"], strict=False)
-                    
-                    uvfwd_saved_model_state = torch.load("../exps/doc3d_uvprior/latest_uvfwd2.pth")
-                    uvfwd_saved_model_state["model_state_dict"]=utils.update_state_dict(uvfwd_saved_model_state["model_state_dict"],'forward_network.lin','lin' )
-                    self.model.forward_network.load_state_dict(uvfwd_saved_model_state["model_state_dict"], strict=False)
-                    
-                    uvbwd_saved_model_state = torch.load('../exps/doc3d_3dfield/1.pth')
-                    uvbwd_saved_model_state["model_state_dict"]=utils.update_state_dict(uvbwd_saved_model_state["model_state_dict"],'backward_network.lin','lin' )
-                    self.model.backward_network.load_state_dict(uvbwd_saved_model_state["model_state_dict"], strict=False)
-                else:
-                    saved_model_state = torch.load(os.path.join(old_checkpnts_dir, 'ModelParameters', str(kwargs['checkpoint']) + ".pth"))
-                    self.model.load_state_dict(saved_model_state["model_state_dict"], strict=False)
-                    self.start_epoch = saved_model_state.get('epoch',0)
-                    self.start_iter = saved_model_state.get('iter',0)
+                saved_model_state = torch.load(os.path.join(old_checkpnts_dir, 'ModelParameters', str(kwargs['checkpoint']) + ".pth"))
+                self.model.load_state_dict(saved_model_state["model_state_dict"], strict=False)
+                self.start_epoch = saved_model_state.get('epoch',0)
+                self.start_iter = saved_model_state.get('iter',0)
 
 
                 

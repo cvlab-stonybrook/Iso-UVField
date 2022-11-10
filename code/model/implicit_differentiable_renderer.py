@@ -1078,48 +1078,7 @@ class IDRUVRendNetwork(nn.Module):
                 
             # pdb.set_trace()
             
-            if self.normalize and self.training:
-                norm_dsp=dsp.clone().detach()
-                # normalize the surface points to be in unit sphere
-                centroid_x=norm_dsp[:,0].mean()
-                centroid_y=norm_dsp[:,1].mean()
-                centroid_z=norm_dsp[:,2].mean()
-                # translate to (0,0,0)
-                norm_dsp[:,0]=norm_dsp[:,0]-centroid_x
-                norm_dsp[:,1]=norm_dsp[:,1]-centroid_y
-                norm_dsp[:,2]=norm_dsp[:,2]-centroid_z
-                #furthest point from (0,0,0)
-                furthest_distance = torch.max(torch.sqrt(torch.sum(abs(norm_dsp.clone())**2,dim=-1)))
-                if furthest_distance>=1e-3:
-                    norm_dsp /= furthest_distance
-                    
-                if self.transform:
-                    # pdb.set_trace()
-                    norm_dsp=norm_dsp.unsqueeze(0).transpose(2,1)
-                    stnmat= self.stn(norm_dsp)
-                    norm_dsp=norm_dsp.transpose(2,1)
-                    norm_dsp = torch.bmm(norm_dsp, stnmat).squeeze(0)
-                        
-                if self.uv_inp:
-                    uv_points[surface_mask]=self.forward_network(norm_dsp, image_uv_inp, global_feats=None)
-                else:
-                    uv_points[surface_mask]=self.forward_network(norm_dsp, None , global_feats=None)
-                # pdb.set_trace()
-                fwdrgb_values[surface_mask], diff_normals, diff_feats = self.get_rbg_value_uv(dsp, uv_points[surface_mask].clone().detach(), view)
-                normals[surface_mask] = diff_normals
-                
-                if self.train_backward:
-                    uv2surface_points = torch.zeros_like(differentiable_surface_points).float().cuda()
-                    # uv points to backward network for surface points
-                    if self.joint_backward:
-                        uv2surface_points=self.backward_network(uv_points[surface_mask], None, global_feats=None)
-
-                    else:
-                        uv2surface_points=self.backward_network(uv_points[surface_mask].clone().detach(), None, global_feats=None)
-                        
-                    # bwdrgb_values[surface_mask], _n, _f = self.get_rbg_value_uv(uv2surface_points, uv_points[surface_mask], view)
-            
-            elif self.fixed_transform: # transform surface points to match with training dist.
+            if self.fixed_transform: # transform surface points to match with training dist.
                 tdsp=dsp.clone()#.detach()
                 # pdb.set_trace()
                 '''
@@ -1265,8 +1224,8 @@ class IDRUVRendNetwork(nn.Module):
                 else:
                     uv_points[surface_mask]=self.forward_network(tdsp, None , global_feats=None)
                 
-                fwdrgb_values[surface_mask], diff_normals, diff_feats = self.get_rbg_value_uv(dsp, uv_points[surface_mask], view)
-                # fwdrgb_values[surface_mask], diff_normals, diff_feats = self.get_rbg_value_uv(dsp, uv_points[surface_mask].clone().detach(), view)
+                # fwdrgb_values[surface_mask], diff_normals, diff_feats = self.get_rbg_value_uv(dsp, uv_points[surface_mask], view)
+                fwdrgb_values[surface_mask], diff_normals, diff_feats = self.get_rbg_value_uv(dsp, uv_points[surface_mask].clone().detach(), view)
                 normals[surface_mask] = diff_normals
                 
                 if self.train_backward:

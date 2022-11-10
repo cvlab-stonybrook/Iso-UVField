@@ -16,6 +16,7 @@ class DocDataset(torch.utils.data.Dataset):
 
     def __init__(self,
                 train_cameras,
+                data_root,
                 data_dir,
                 img_res,
                 tex_res,
@@ -25,8 +26,8 @@ class DocDataset(torch.utils.data.Dataset):
                 ):
 
         # self.instance_dir = os.path.join('/media/hilab/HiLabData/Sagnik/idr/input/pami/', data_dir)
-        self.instance_dir = os.path.join('/media/hilab/HiLabData/Sagnik/idr/input/real/', data_dir)
-        # self.instance_dir = os.path.join('/media/hilab/HiLabData/Sagnik/idr/input/ocr_set/data', data_dir)
+        # self.instance_dir = os.path.join('/media/hilab/HiLabData/Sagnik/idr/input/real/', data_dir)
+        self.instance_dir = os.path.join(data_root, data_dir)
 
         self.total_pixels = img_res[0] * img_res[1]
         self.img_res = img_res
