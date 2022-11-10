@@ -1,16 +1,19 @@
 
 # Iso-UVField
-Learning an Isometric Surface Parameterization for Texture Unwrapping (ECCV 2022)
+## Learning an Isometric Surface Parameterization for Texture Unwrapping (ECCV 2022)
 
+[Project Page](https://sagniklp.github.io/isouvf/)
+
+**This code is still in the cleaning phase. I expect to release a better version after Nov. 2nd. In the meantime, if you need urgent results or models, please contact me: sadas[at]cs[dot]stonybrook[dot]edu. TY!**
 
 #### Environment Setup:
 
-install the conda environment using env-idruvfield.yml
+install the conda environment using env-isouvfield.yml
 
 
 #### Experiments:
 - you should use the configuration files in code/confs/ 
-- edit the conf file to use any data_dirs (line 60 of the conf file) of your choice from '/input':
+- edit the conf file to use any data_dirs (line 52 of the conf file) of your choice from '/input':
     e.g. paper3
 
 - Run the experiments within the /code directory
