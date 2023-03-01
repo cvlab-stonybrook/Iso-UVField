@@ -44,7 +44,7 @@ Run the following command:
 #### Release Notes:
 - [X] Minimal training example (20th July, 2022) + error fixes (10th Nov, 2022)
 - [ ] Code cleanup 
-- [ ] Assets release
+- [X] Assets release (all real testsets: 1st Mar, 2023)
 - [ ] Full code release
 	- [ ] UV prior training code
 	- [ ] Synthetic data training code
