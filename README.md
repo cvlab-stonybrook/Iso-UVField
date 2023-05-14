@@ -19,7 +19,7 @@ install the conda environment using env-isouvfield.yml
 - Run the experiments within the /code directory
 
 #### Assets:
-- The data can be downloaded from here: [GDrive Link](https://drive.google.com/drive/folders/12SwQ7vhz-VlgryZbT3o0ZYe9ECs6SOb4?usp=share_link)
+- The data can be downloaded from here: [GDrive Link](https://drive.google.com/drive/folders/1ag-ZSZZMKjiq42vaeED0Bcf5RihI7TMC?usp=share_link)
 - After downloading keep the data in '/input' directory.
 
 #### Training:
